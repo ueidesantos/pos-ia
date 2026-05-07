@@ -1,0 +1,25 @@
+{
+  "name": "pos-ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve 01-LLM/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueidesantos/pos-ia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ueidesantos/pos-ia/issues"
+  },
+  "homepage": "https://github.com/ueidesantos/pos-ia#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0"
+  }
+}

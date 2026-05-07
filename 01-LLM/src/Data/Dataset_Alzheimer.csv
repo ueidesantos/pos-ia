@@ -1,0 +1,402 @@
+Classificacao,Nome,Idade,Genero,Diabetes,Depressao,QueixasMemoria,Confusao,Hipertenso,Sono,QualidadeDieta,AtividadeFisica
+Procura medica prioritaria,Maria,0.51,0,1,1,1,1,0,1,1,1
+Procura medica prioritaria,Ana,0.68,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Bruno,0.57,1,1,1,1,1,1,1,1,1
+Procura medica prioritaria,Carla,0.73,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Daniel,0.62,1,1,0,1,1,0,1,1,1
+Procura medica prioritaria,Elisa,0.59,0,1,1,0,1,1,1,1,0
+Procura medica prioritaria,Fabio,0.81,1,1,0,1,1,1,1,0,1
+Procura medica prioritaria,Gabriela,0.66,0,0,1,1,1,1,1,1,0
+Procura medica prioritaria,Henrique,0.71,1,1,1,1,1,0,1,1,1
+Procura medica prioritaria,Isabela,0.64,0,1,0,1,1,1,0,1,1
+Procura medica prioritaria,Joao,0.77,1,1,1,0,1,1,1,1,1
+Procura medica prioritaria,Karina,0.54,0,0,1,1,1,1,1,0,1
+Procura medica prioritaria,Leonardo,0.69,1,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Mariana,0.75,0,1,1,1,1,1,0,1,1
+Procura medica prioritaria,Nicolas,0.63,1,0,0,1,1,1,1,1,1
+Procura medica prioritaria,Olivia,0.58,0,1,1,1,1,0,1,1,1
+Procura medica prioritaria,Paulo,0.84,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Queila,0.67,0,0,1,0,1,1,1,1,1
+Procura medica prioritaria,Rafael,0.61,1,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Sonia,0.72,0,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Tiago,0.56,1,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Ursula,0.79,0,1,1,1,1,1,1,1,1
+Procura medica prioritaria,Vitor,0.65,1,1,0,0,1,1,1,1,1
+Procura medica prioritaria,Wanda,0.74,0,1,1,1,1,0,1,1,0
+Procura medica prioritaria,Xavier,0.83,1,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Yasmin,0.6,0,0,1,1,1,1,0,1,1
+Procura medica prioritaria,Zeca,0.7,1,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Adriana,0.55,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Bernardo,0.78,1,1,1,0,1,1,1,0,1
+Procura medica prioritaria,Cintia,0.69,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Diego,0.64,1,1,0,1,1,0,1,1,1
+Procura medica prioritaria,Erika,0.76,0,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Felipe,0.58,1,1,0,0,1,1,1,1,1
+Procura medica prioritaria,Gisele,0.82,0,1,1,1,1,1,0,1,1
+Procura medica prioritaria,Heitor,0.66,1,0,1,1,1,1,1,0,1
+Procura medica prioritaria,Irene,0.71,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Jorge,0.62,1,1,1,1,1,0,1,1,0
+Procura medica prioritaria,Katia,0.8,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Luciano,0.59,1,0,1,0,1,1,1,1,1
+Procura medica prioritaria,Monica,0.73,0,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Nelson,0.68,1,1,0,1,1,1,0,1,1
+Procura medica prioritaria,Orlanda,0.57,0,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Pedro,0.75,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Quiteria,0.63,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Ricardo,0.81,1,1,1,1,1,0,1,0,1
+Procura medica prioritaria,Selma,0.67,0,1,0,0,1,1,1,1,1
+Procura medica prioritaria,Tulio,0.72,1,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Valeria,0.61,0,0,1,1,1,1,0,1,1
+Procura medica prioritaria,Wellington,0.77,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Zilda,0.65,0,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Andre,0.74,1,1,0,1,1,0,1,1,1
+Procura medica prioritaria,Bianca,0.56,0,1,1,0,1,1,1,1,1
+Procura medica prioritaria,Caio,0.79,1,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Debora,0.62,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Edson,0.7,1,1,1,1,1,1,0,1,1
+Procura medica prioritaria,Flavia,0.83,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Gustavo,0.58,1,0,1,1,1,1,1,0,1
+Procura medica prioritaria,Helena,0.69,0,1,1,1,1,0,1,1,1
+Procura medica prioritaria,Igor,0.64,1,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Janaina,0.78,0,1,1,0,1,1,1,1,1
+Procura medica prioritaria,Kleber,0.6,1,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Larissa,0.72,0,1,0,1,1,1,0,1,1
+Procura medica prioritaria,Marcelo,0.67,1,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Nadia,0.55,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Otavio,0.76,1,1,0,1,1,0,1,1,1
+Procura medica prioritaria,Patricia,0.8,0,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Renato,0.63,1,1,0,0,1,1,1,1,1
+Procura medica prioritaria,Sabrina,0.71,0,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Thiago,0.59,1,0,1,1,1,1,0,1,1
+Procura medica prioritaria,Vanessa,0.75,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,William,0.66,1,1,1,1,1,0,1,1,0
+Procura medica prioritaria,Aline,0.73,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Breno,0.57,1,1,1,0,1,1,1,1,1
+Procura medica prioritaria,Camila,0.68,0,0,1,1,1,1,1,0,1
+Procura medica prioritaria,Douglas,0.82,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Evelyn,0.61,0,1,1,1,1,0,1,1,0
+Procura medica prioritaria,Francisco,0.77,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Geovana,0.64,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Hugo,0.7,1,1,1,0,1,1,0,1,1
+Procura medica prioritaria,Ines,0.84,0,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Jonas,0.58,1,1,1,1,1,1,1,1,1
+Procura medica prioritaria,Kelly,0.69,0,1,0,1,1,1,1,0,1
+Procura medica prioritaria,Leandro,0.62,1,0,1,1,1,1,1,1,0
+Procura medica prioritaria,Marta,0.78,0,1,1,1,1,0,1,1,1
+Procura medica prioritaria,Natan,0.65,1,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Olga,0.74,0,1,1,0,1,1,0,1,1
+Procura medica prioritaria,Pietro,0.56,1,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Raissa,0.81,0,1,0,1,1,1,1,1,0
+Procura medica prioritaria,Samuel,0.67,1,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Tatiane,0.6,0,0,1,1,1,1,1,1,1
+Procura medica prioritaria,Ubirajara,0.76,1,1,0,1,1,0,1,1,1
+Procura medica prioritaria,Vera,0.72,0,1,1,1,1,1,1,1,0
+Procura medica prioritaria,Wesley,0.63,1,1,0,0,1,1,1,1,1
+Procura medica prioritaria,Yara,0.79,0,1,1,1,1,1,0,1,1
+Procura medica prioritaria,Arthur,0.68,1,0,1,1,1,1,1,1,0
+Procura medica prioritaria,Beatriz,0.57,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Cesar,0.83,1,1,1,1,1,0,1,0,1
+Procura medica prioritaria,Denise,0.66,0,1,0,1,1,1,1,1,1
+Procura medica prioritaria,Emanuel,0.71,1,0,1,0,1,1,1,1,1
+Procura medica prioritaria,Fernanda,0.75,0,1,1,1,1,1,1,0,1
+Procura medica prioritaria,Gilberto,0.64,1,1,0,1,1,1,0,1,1
+Baixo risco,Ana,0.24,0,0,0,0,0,0,0,0,0
+Baixo risco,Bruno,0.31,1,0,0,0,0,0,0,0,0
+Baixo risco,Carla,0.28,0,0,0,0,0,0,0,0,0
+Baixo risco,Daniel,0.35,1,0,0,0,0,0,0,0,0
+Baixo risco,Elisa,0.22,0,0,0,0,0,0,0,0,0
+Baixo risco,Fabio,0.39,1,0,0,0,0,0,0,0,0
+Baixo risco,Gabriela,0.26,0,0,0,0,0,0,0,0,0
+Baixo risco,Henrique,0.33,1,0,0,0,0,0,0,0,0
+Baixo risco,Isabela,0.29,0,0,0,0,0,0,0,0,0
+Baixo risco,Joao,0.37,1,0,0,0,0,0,0,0,0
+Baixo risco,Karina,0.25,0,0,0,0,0,0,0,0,0
+Baixo risco,Leonardo,0.32,1,0,0,0,0,0,0,0,0
+Baixo risco,Mariana,0.27,0,0,0,0,0,0,0,0,0
+Baixo risco,Nicolas,0.34,1,0,0,0,0,0,0,0,0
+Baixo risco,Olivia,0.23,0,0,0,0,0,0,0,0,0
+Baixo risco,Paulo,0.38,1,0,0,0,0,0,0,0,0
+Baixo risco,Queila,0.21,0,0,0,0,0,0,0,0,0
+Baixo risco,Rafael,0.3,1,0,0,0,0,0,0,0,0
+Baixo risco,Sonia,0.36,0,0,0,0,0,0,0,0,0
+Baixo risco,Tiago,0.28,1,0,0,0,0,0,0,0,0
+Baixo risco,Ursula,0.24,0,0,0,0,0,0,0,0,0
+Baixo risco,Vitor,0.31,1,0,0,0,0,0,0,0,0
+Baixo risco,Wanda,0.27,0,0,0,0,0,0,0,0,0
+Baixo risco,Xavier,0.35,1,0,0,0,0,0,0,0,0
+Baixo risco,Yasmin,0.22,0,0,0,0,0,0,0,0,0
+Baixo risco,Zeca,0.39,1,0,0,0,0,0,0,0,0
+Baixo risco,Adriana,0.26,0,0,0,0,0,0,0,0,0
+Baixo risco,Bernardo,0.33,1,0,0,0,0,0,0,0,0
+Baixo risco,Cintia,0.29,0,0,0,0,0,0,0,0,0
+Baixo risco,Diego,0.37,1,0,0,0,0,0,0,0,0
+Baixo risco,Erika,0.25,0,0,0,0,0,0,0,0,0
+Baixo risco,Felipe,0.32,1,0,0,0,0,0,0,0,0
+Baixo risco,Gisele,0.28,0,0,0,0,0,0,0,0,0
+Baixo risco,Heitor,0.34,1,0,0,0,0,0,0,0,0
+Baixo risco,Irene,0.23,0,0,0,0,0,0,0,0,0
+Baixo risco,Jorge,0.38,1,0,0,0,0,0,0,0,0
+Baixo risco,Katia,0.21,0,0,0,0,0,0,0,0,0
+Baixo risco,Luciano,0.3,1,0,0,0,0,0,0,0,0
+Baixo risco,Monica,0.36,0,0,0,0,0,0,0,0,0
+Baixo risco,Nelson,0.28,1,0,0,0,0,0,0,0,0
+Baixo risco,Orlanda,0.24,0,0,0,0,0,0,0,0,0
+Baixo risco,Pedro,0.31,1,0,0,0,0,0,0,0,0
+Baixo risco,Quiteria,0.27,0,0,0,0,0,0,0,0,0
+Baixo risco,Ricardo,0.35,1,0,0,0,0,0,0,0,0
+Baixo risco,Selma,0.22,0,0,0,0,0,0,0,0,0
+Baixo risco,Tulio,0.39,1,0,0,0,0,0,0,0,0
+Baixo risco,Valeria,0.26,0,0,0,0,0,0,0,0,0
+Baixo risco,Wellington,0.33,1,0,0,0,0,0,0,0,0
+Baixo risco,Zilda,0.29,0,0,0,0,0,0,0,0,0
+Baixo risco,Andre,0.37,1,0,0,0,0,0,0,0,0
+Baixo risco,Bianca,0.25,0,0,0,0,0,0,0,0,0
+Baixo risco,Caio,0.32,1,0,0,0,0,0,0,0,0
+Baixo risco,Debora,0.28,0,0,0,0,0,0,0,0,0
+Baixo risco,Edson,0.34,1,0,0,0,0,0,0,0,0
+Baixo risco,Flavia,0.23,0,0,0,0,0,0,0,0,0
+Baixo risco,Gustavo,0.38,1,0,0,0,0,0,0,0,0
+Baixo risco,Helena,0.21,0,0,0,0,0,0,0,0,0
+Baixo risco,Igor,0.3,1,0,0,0,0,0,0,0,0
+Baixo risco,Janaina,0.36,0,0,0,0,0,0,0,0,0
+Baixo risco,Kleber,0.28,1,0,0,0,0,0,0,0,0
+Baixo risco,Larissa,0.24,0,0,0,0,0,0,0,0,0
+Baixo risco,Marcelo,0.31,1,0,0,0,0,0,0,0,0
+Baixo risco,Nadia,0.27,0,0,0,0,0,0,0,0,0
+Baixo risco,Otavio,0.35,1,0,0,0,0,0,0,0,0
+Baixo risco,Patricia,0.22,0,0,0,0,0,0,0,0,0
+Baixo risco,Renato,0.39,1,0,0,0,0,0,0,0,0
+Baixo risco,Sabrina,0.26,0,0,0,0,0,0,0,0,0
+Baixo risco,Thiago,0.33,1,0,0,0,0,0,0,0,0
+Baixo risco,Vanessa,0.29,0,0,0,0,0,0,0,0,0
+Baixo risco,William,0.37,1,0,0,0,0,0,0,0,0
+Baixo risco,Aline,0.25,0,0,0,0,0,0,0,0,0
+Baixo risco,Breno,0.32,1,0,0,0,0,0,0,0,0
+Baixo risco,Camila,0.28,0,0,0,0,0,0,0,0,0
+Baixo risco,Douglas,0.34,1,0,0,0,0,0,0,0,0
+Baixo risco,Evelyn,0.23,0,0,0,0,0,0,0,0,0
+Baixo risco,Francisco,0.38,1,0,0,0,0,0,0,0,0
+Baixo risco,Geovana,0.21,0,0,0,0,0,0,0,0,0
+Baixo risco,Hugo,0.3,1,0,0,0,0,0,0,0,0
+Baixo risco,Ines,0.36,0,0,0,0,0,0,0,0,0
+Baixo risco,Jonas,0.28,1,0,0,0,0,0,0,0,0
+Baixo risco,Kelly,0.24,0,0,0,0,0,0,0,0,0
+Baixo risco,Leandro,0.31,1,0,0,0,0,0,0,0,0
+Baixo risco,Marta,0.27,0,0,0,0,0,0,0,0,0
+Baixo risco,Natan,0.35,1,0,0,0,0,0,0,0,0
+Baixo risco,Olga,0.22,0,0,0,0,0,0,0,0,0
+Baixo risco,Pietro,0.39,1,0,0,0,0,0,0,0,0
+Baixo risco,Raissa,0.26,0,0,0,0,0,0,0,0,0
+Baixo risco,Samuel,0.33,1,0,0,0,0,0,0,0,0
+Baixo risco,Tatiane,0.29,0,0,0,0,0,0,0,0,0
+Baixo risco,Ubirajara,0.37,1,0,0,0,0,0,0,0,0
+Baixo risco,Vera,0.25,0,0,0,0,0,0,0,0,0
+Baixo risco,Wesley,0.32,1,0,0,0,0,0,0,0,0
+Baixo risco,Yara,0.28,0,0,0,0,0,0,0,0,0
+Baixo risco,Arthur,0.34,1,0,0,0,0,0,0,0,0
+Baixo risco,Beatriz,0.23,0,0,0,0,0,0,0,0,0
+Baixo risco,Cesar,0.38,1,0,0,0,0,0,0,0,0
+Baixo risco,Denise,0.21,0,0,0,0,0,0,0,0,0
+Baixo risco,Emanuel,0.3,1,0,0,0,0,0,0,0,0
+Baixo risco,Fernanda,0.36,0,0,0,0,0,0,0,0,0
+Baixo risco,Gilberto,0.28,1,0,0,0,0,0,0,0,0
+Atencao moderada,Ana,0.42,0,0,0,0,0,0,1,1,1
+Atencao moderada,Bruno,0.47,1,0,0,0,0,1,1,1,0
+Atencao moderada,Carla,0.38,0,0,1,0,0,0,1,0,1
+Atencao moderada,Daniel,0.44,1,1,0,0,0,0,0,1,1
+Atencao moderada,Elisa,0.41,0,0,0,1,0,0,1,1,0
+Atencao moderada,Fabio,0.49,1,0,0,0,0,1,1,0,1
+Atencao moderada,Gabriela,0.36,0,0,1,0,0,0,1,1,0
+Atencao moderada,Henrique,0.45,1,1,0,0,0,0,1,1,0
+Atencao moderada,Isabela,0.4,0,0,0,1,0,0,0,1,1
+Atencao moderada,Joao,0.48,1,0,0,0,0,1,1,1,0
+Atencao moderada,Karina,0.37,0,0,1,0,0,0,1,0,1
+Atencao moderada,Leonardo,0.46,1,1,0,0,0,0,0,1,1
+Atencao moderada,Mariana,0.43,0,0,0,1,0,0,1,1,0
+Atencao moderada,Nicolas,0.39,1,0,0,0,0,1,1,0,1
+Atencao moderada,Olivia,0.42,0,0,1,0,0,0,1,1,0
+Atencao moderada,Paulo,0.47,1,1,0,0,0,0,1,0,1
+Atencao moderada,Queila,0.38,0,0,0,1,0,0,0,1,1
+Atencao moderada,Rafael,0.44,1,0,0,0,0,1,1,1,0
+Atencao moderada,Sonia,0.41,0,0,1,0,0,0,1,0,1
+Atencao moderada,Tiago,0.49,1,1,0,0,0,0,0,1,1
+Atencao moderada,Ursula,0.36,0,0,0,1,0,0,1,1,0
+Atencao moderada,Vitor,0.45,1,0,0,0,0,1,1,0,1
+Atencao moderada,Wanda,0.4,0,0,1,0,0,0,1,1,0
+Atencao moderada,Xavier,0.48,1,1,0,0,0,0,1,1,0
+Atencao moderada,Yasmin,0.37,0,0,0,1,0,0,0,1,1
+Atencao moderada,Zeca,0.46,1,0,0,0,0,1,1,1,0
+Atencao moderada,Adriana,0.43,0,0,1,0,0,0,1,0,1
+Atencao moderada,Bernardo,0.39,1,1,0,0,0,0,0,1,1
+Atencao moderada,Cintia,0.42,0,0,0,1,0,0,1,1,0
+Atencao moderada,Diego,0.47,1,0,0,0,0,1,1,0,1
+Atencao moderada,Erika,0.38,0,0,1,0,0,0,1,1,0
+Atencao moderada,Felipe,0.44,1,1,0,0,0,0,1,0,1
+Atencao moderada,Gisele,0.41,0,0,0,1,0,0,0,1,1
+Atencao moderada,Heitor,0.49,1,0,0,0,0,1,1,1,0
+Atencao moderada,Irene,0.36,0,0,1,0,0,0,1,0,1
+Atencao moderada,Jorge,0.45,1,1,0,0,0,0,0,1,1
+Atencao moderada,Katia,0.4,0,0,0,1,0,0,1,1,0
+Atencao moderada,Luciano,0.48,1,0,0,0,0,1,1,0,1
+Atencao moderada,Monica,0.37,0,0,1,0,0,0,1,1,0
+Atencao moderada,Nelson,0.46,1,1,0,0,0,0,1,0,1
+Atencao moderada,Orlanda,0.43,0,0,0,1,0,0,0,1,1
+Atencao moderada,Pedro,0.39,1,0,0,0,0,1,1,1,0
+Atencao moderada,Quiteria,0.42,0,0,1,0,0,0,1,0,1
+Atencao moderada,Ricardo,0.47,1,1,0,0,0,0,0,1,1
+Atencao moderada,Selma,0.38,0,0,0,1,0,0,1,1,0
+Atencao moderada,Tulio,0.44,1,0,0,0,0,1,1,0,1
+Atencao moderada,Valeria,0.41,0,0,1,0,0,0,1,1,0
+Atencao moderada,Wellington,0.49,1,1,0,0,0,0,1,1,0
+Atencao moderada,Zilda,0.36,0,0,0,1,0,0,0,1,1
+Atencao moderada,Andre,0.45,1,0,0,0,0,1,1,1,0
+Atencao moderada,Bianca,0.4,0,0,1,0,0,0,1,0,1
+Atencao moderada,Caio,0.48,1,1,0,0,0,0,0,1,1
+Atencao moderada,Debora,0.37,0,0,0,1,0,0,1,1,0
+Atencao moderada,Edson,0.46,1,0,0,0,0,1,1,0,1
+Atencao moderada,Flavia,0.43,0,0,1,0,0,0,1,1,0
+Atencao moderada,Gustavo,0.39,1,1,0,0,0,0,1,0,1
+Atencao moderada,Helena,0.42,0,0,0,1,0,0,0,1,1
+Atencao moderada,Igor,0.47,1,0,0,0,0,1,1,1,0
+Atencao moderada,Janaina,0.38,0,0,1,0,0,0,1,0,1
+Atencao moderada,Kleber,0.44,1,1,0,0,0,0,0,1,1
+Atencao moderada,Larissa,0.41,0,0,0,1,0,0,1,1,0
+Atencao moderada,Marcelo,0.49,1,0,0,0,0,1,1,0,1
+Atencao moderada,Nadia,0.36,0,0,1,0,0,0,1,1,0
+Atencao moderada,Otavio,0.45,1,1,0,0,0,0,1,0,1
+Atencao moderada,Patricia,0.4,0,0,0,1,0,0,0,1,1
+Atencao moderada,Renato,0.48,1,0,0,0,0,1,1,1,0
+Atencao moderada,Sabrina,0.37,0,0,1,0,0,0,1,0,1
+Atencao moderada,Thiago,0.46,1,1,0,0,0,0,0,1,1
+Atencao moderada,Vanessa,0.43,0,0,0,1,0,0,1,1,0
+Atencao moderada,William,0.39,1,0,0,0,0,1,1,0,1
+Atencao moderada,Aline,0.42,0,0,1,0,0,0,1,1,0
+Atencao moderada,Breno,0.47,1,1,0,0,0,0,1,0,1
+Atencao moderada,Camila,0.38,0,0,0,1,0,0,0,1,1
+Atencao moderada,Douglas,0.44,1,0,0,0,0,1,1,1,0
+Atencao moderada,Evelyn,0.41,0,0,1,0,0,0,1,0,1
+Atencao moderada,Francisco,0.49,1,1,0,0,0,0,0,1,1
+Atencao moderada,Geovana,0.36,0,0,0,1,0,0,1,1,0
+Atencao moderada,Hugo,0.45,1,0,0,0,0,1,1,0,1
+Atencao moderada,Ines,0.4,0,0,1,0,0,0,1,1,0
+Atencao moderada,Jonas,0.48,1,1,0,0,0,0,1,1,0
+Atencao moderada,Kelly,0.37,0,0,0,1,0,0,0,1,1
+Atencao moderada,Leandro,0.46,1,0,0,0,0,1,1,1,0
+Atencao moderada,Marta,0.43,0,0,1,0,0,0,1,0,1
+Atencao moderada,Natan,0.39,1,1,0,0,0,0,0,1,1
+Atencao moderada,Olga,0.42,0,0,0,1,0,0,1,1,0
+Atencao moderada,Pietro,0.47,1,0,0,0,0,1,1,0,1
+Atencao moderada,Raissa,0.38,0,0,1,0,0,0,1,1,0
+Atencao moderada,Samuel,0.44,1,1,0,0,0,0,1,0,1
+Atencao moderada,Tatiane,0.41,0,0,0,1,0,0,0,1,1
+Atencao moderada,Ubirajara,0.49,1,0,0,0,0,1,1,1,0
+Atencao moderada,Vera,0.36,0,0,1,0,0,0,1,0,1
+Atencao moderada,Wesley,0.45,1,1,0,0,0,0,0,1,1
+Atencao moderada,Yara,0.4,0,0,0,1,0,0,1,1,0
+Atencao moderada,Arthur,0.48,1,0,0,0,0,1,1,0,1
+Atencao moderada,Beatriz,0.37,0,0,1,0,0,0,1,1,0
+Atencao moderada,Cesar,0.46,1,1,0,0,0,0,1,0,1
+Atencao moderada,Denise,0.43,0,0,0,1,0,0,0,1,1
+Atencao moderada,Emanuel,0.39,1,0,0,0,0,1,1,1,0
+Atencao moderada,Fernanda,0.42,0,0,1,0,0,0,1,0,1
+Atencao moderada,Gilberto,0.47,1,1,0,0,0,0,0,1,1
+Recomendavel avaliacao medica,Ana,0.52,0,1,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Bruno,0.58,1,1,1,0,0,1,1,1,1
+Recomendavel avaliacao medica,Carla,0.61,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Daniel,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Elisa,0.49,0,1,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Fabio,0.63,1,1,0,0,0,1,1,0,1
+Recomendavel avaliacao medica,Gabriela,0.57,0,0,1,1,0,1,1,1,1
+Recomendavel avaliacao medica,Henrique,0.6,1,1,1,1,0,0,1,1,0
+Recomendavel avaliacao medica,Isabela,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Joao,0.66,1,1,1,0,0,1,1,1,1
+Recomendavel avaliacao medica,Karina,0.51,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Leonardo,0.59,1,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Mariana,0.62,0,1,1,1,0,0,1,0,1
+Recomendavel avaliacao medica,Nicolas,0.54,1,0,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Olivia,0.5,0,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Paulo,0.67,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Queila,0.56,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Rafael,0.64,1,1,1,1,0,0,1,1,1
+Recomendavel avaliacao medica,Sonia,0.52,0,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Tiago,0.58,1,1,1,0,0,1,1,1,0
+Recomendavel avaliacao medica,Ursula,0.61,0,0,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Vitor,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Wanda,0.49,0,1,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Xavier,0.63,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Yasmin,0.57,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Zeca,0.6,1,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Adriana,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Bernardo,0.66,1,1,1,0,0,0,1,1,1
+Recomendavel avaliacao medica,Cintia,0.51,0,0,1,1,0,1,1,1,1
+Recomendavel avaliacao medica,Diego,0.59,1,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Erika,0.62,0,1,1,1,0,0,1,1,0
+Recomendavel avaliacao medica,Felipe,0.54,1,0,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Gisele,0.5,0,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Heitor,0.67,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Irene,0.56,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Jorge,0.64,1,1,1,1,0,0,1,1,1
+Recomendavel avaliacao medica,Katia,0.52,0,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Luciano,0.58,1,1,1,0,0,1,1,1,0
+Recomendavel avaliacao medica,Monica,0.61,0,0,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Nelson,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Orlanda,0.49,0,1,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Pedro,0.63,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Quiteria,0.57,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Ricardo,0.6,1,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Selma,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Tulio,0.66,1,1,1,0,0,0,1,1,1
+Recomendavel avaliacao medica,Valeria,0.51,0,0,1,1,0,1,1,1,1
+Recomendavel avaliacao medica,Wellington,0.59,1,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Zilda,0.62,0,1,1,1,0,0,1,1,0
+Recomendavel avaliacao medica,Andre,0.54,1,0,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Bianca,0.5,0,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Caio,0.67,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Debora,0.56,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Edson,0.64,1,1,1,1,0,0,1,1,1
+Recomendavel avaliacao medica,Flavia,0.52,0,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Gustavo,0.58,1,1,1,0,0,1,1,1,0
+Recomendavel avaliacao medica,Helena,0.61,0,0,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Igor,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Janaina,0.49,0,1,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Kleber,0.63,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Larissa,0.57,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Marcelo,0.6,1,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Nadia,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Otavio,0.66,1,1,1,0,0,0,1,1,1
+Recomendavel avaliacao medica,Patricia,0.51,0,0,1,1,0,1,1,1,1
+Recomendavel avaliacao medica,Renato,0.59,1,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Sabrina,0.62,0,1,1,1,0,0,1,1,0
+Recomendavel avaliacao medica,Thiago,0.54,1,0,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Vanessa,0.5,0,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,William,0.67,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Aline,0.56,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Breno,0.64,1,1,1,1,0,0,1,1,1
+Recomendavel avaliacao medica,Camila,0.52,0,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Douglas,0.58,1,1,1,0,0,1,1,1,0
+Recomendavel avaliacao medica,Evelyn,0.61,0,0,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Francisco,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Geovana,0.49,0,1,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Hugo,0.63,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Ines,0.57,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Jonas,0.6,1,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Kelly,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Leandro,0.66,1,1,1,0,0,0,1,1,1
+Recomendavel avaliacao medica,Marta,0.51,0,0,1,1,0,1,1,1,1
+Recomendavel avaliacao medica,Natan,0.59,1,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Olga,0.62,0,1,1,1,0,0,1,1,0
+Recomendavel avaliacao medica,Pietro,0.54,1,0,0,1,0,1,1,1,1
+Recomendavel avaliacao medica,Raissa,0.5,0,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Samuel,0.67,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Tatiane,0.56,0,0,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Ubirajara,0.64,1,1,1,1,0,0,1,1,1
+Recomendavel avaliacao medica,Vera,0.52,0,1,0,1,0,1,0,1,1
+Recomendavel avaliacao medica,Wesley,0.58,1,1,1,0,0,1,1,1,0
+Recomendavel avaliacao medica,Yara,0.61,0,0,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Arthur,0.55,1,1,0,1,0,0,1,1,1
+Recomendavel avaliacao medica,Beatriz,0.49,0,1,1,1,0,1,1,1,0
+Recomendavel avaliacao medica,Cesar,0.63,1,1,0,0,0,1,1,1,1
+Recomendavel avaliacao medica,Denise,0.57,0,0,1,1,0,1,0,1,1
+Recomendavel avaliacao medica,Emanuel,0.6,1,1,1,1,0,1,1,0,1
+Recomendavel avaliacao medica,Fernanda,0.53,0,1,0,1,0,1,1,1,0
+Recomendavel avaliacao medica,Gilberto,0.66,1,1,1,0,0,0,1,1,1

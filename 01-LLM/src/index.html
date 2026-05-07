@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classificação de Atenção em Saúde</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1 class="mb-4">Classificação de Atenção em Saúde</h1>
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h4 class="mb-0">Formulário do Paciente</h4>
+          </div>
+          <div class="card-body">
+            <form id="healthForm">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <label for="idade" class="form-label">Idade</label>
+                  <input type="number" class="form-control" id="idade" min="0" max="120" required>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <label for="genero" class="form-label">Gênero</label>
+                  <select class="form-select" id="genero" required>
+                    <option value="">Selecione</option>
+                    <option value="0">Feminino</option>
+                    <option value="1">Masculino</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="diabetes" class="form-label">Diabetes</label>
+                  <select class="form-select" id="diabetes">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="depressao" class="form-label">Depressão</label>
+                  <select class="form-select" id="depressao">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="hipertenso" class="form-label">Hipertenso</label>
+                  <select class="form-select" id="hipertenso">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="queixasMemoria" class="form-label">Queixas de memória</label>
+                  <select class="form-select" id="queixasMemoria">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="confusao" class="form-label">Confusão</label>
+                  <select class="form-select" id="confusao">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="sono" class="form-label">Sono ruim</label>
+                  <select class="form-select" id="sono">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="qualidadeDieta" class="form-label">Dieta ruim</label>
+                  <select class="form-select" id="qualidadeDieta">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <label for="atividadeFisica" class="form-label">Sedentário</label>
+                  <select class="form-select" id="atividadeFisica">
+                    <option value="0">Não</option>
+                    <option value="1">Sim</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                  <i class="bi bi-clipboard2-pulse"></i> Classificar
+                </button>
+                <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+              </div>
+            </form>
+
+            <div id="resultBox" class="result-box mt-4">
+              <h4 id="resultadoTitulo" class="mb-2"></h4>
+              <p id="resultadoTexto" class="mb-2"></p>
+              <ul id="fatoresLista" class="mb-2"></ul>
+              <p class="small-note mb-0">
+                Este sistema não realiza diagnóstico. A resposta é apenas uma estimativa baseada nas informações fornecidas.
+                A avaliação de um profissional de saúde é indispensável.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="mb-0">Regras usadas</h4>
+          </div>
+          <div class="card-body">
+            <p class="small-note">
+              Exemplo simples de pontuação para fins acadêmicos.
+            </p>
+            <ul>
+              <li>Idade ≥ 60 aumenta pontuação</li>
+              <li>Diabetes, hipertensão e depressão aumentam risco</li>
+              <li>Queixas de memória aumentam atenção</li>
+              <li>Confusão aumenta fortemente a prioridade</li>
+              <li>Sono ruim, dieta ruim e sedentarismo somam fatores de risco</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.5.1/dist/tfjs-vis.umd.min.js"></script>
+  <script type="module" src="index.js"></script>
+</html>
