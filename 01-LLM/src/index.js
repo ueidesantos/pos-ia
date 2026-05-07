@@ -39,6 +39,10 @@ async function trainModel(inputXs, outputYs) {
         loss: 'categoricalCrossentropy',
         metrics: ['accuracy']
     });
+
+    const surface = { name: 'Treinamento', tab: 'Treinamento' };
+    const history = { loss: [], acc: [] };
+
     await model.fit(inputXs, outputYs, 
         {
             verbose: 1,
@@ -49,6 +53,18 @@ async function trainModel(inputXs, outputYs) {
             callbacks: {
                 onEpochEnd: (epoch, logs) => {
                     console.log(`Epoch ${epoch + 1}: loss = ${logs.loss}, accuracy = ${logs.acc}`);
+                    history.loss.push(logs.loss);
+                    history.acc.push(logs.acc);
+                    tfvis.render.linechart(
+                        { name: 'Precisão do Modelo', tab: 'Treinamento' },
+                        { values: history.acc.map((v, i) => ({ x: i, y: v })), series: ['precisão'] },
+                        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Precisão (%)', yAxisDomain: [0, 1] }
+                    );
+                    tfvis.render.linechart(
+                        { name: 'Erro de Treinamento', tab: 'Treinamento' },
+                        { values: history.loss.map((v, i) => ({ x: i, y: v })), series: ['erros'] },
+                        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Valor do Erro', yAxisDomain: [0, 1] }
+                    );
                 }
             }
     });
