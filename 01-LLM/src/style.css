@@ -49,3 +49,26 @@ body {
       font-size: 0.92rem;
       color: #6c757d;
     }
+
+    .console-panel {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Courier New', monospace;
+      font-size: 0.78rem;
+      min-height: 180px;
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 10px 12px;
+      border-radius: 0 0 16px 16px;
+    }
+
+    .console-line {
+      white-space: pre-wrap;
+      word-break: break-all;
+      margin-bottom: 2px;
+    }
+
+    .console-log  { color: #d4d4d4; }
+    .console-info { color: #9cdcfe; }
+    .console-warn { color: #dcdcaa; }
+    .console-error{ color: #f48771; }

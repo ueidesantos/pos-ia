@@ -129,7 +129,7 @@
       </div>
 
       <div class="col-lg-4">
-        <div class="card">
+        <div class="card mb-3">
           <div class="card-header">
             <h4 class="mb-0">Regras usadas</h4>
           </div>
@@ -145,6 +145,16 @@
               <li>Sono ruim, dieta ruim e sedentarismo somam fatores de risco</li>
             </ul>
           </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Console</h4>
+            <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('consoleOutput').innerHTML=''" title="Limpar">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+          <div id="consoleOutput" class="console-panel"></div>
         </div>
       </div>
     </div>

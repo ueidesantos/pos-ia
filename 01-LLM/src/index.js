@@ -1,5 +1,32 @@
 import { HistoricalDatabaseService } from './Services/HistoricalDatabaseService.js';
 
+(function () {
+  const panel = () => document.getElementById('consoleOutput');
+  const levels = {
+    log:   { label: 'LOG',   cls: 'console-log' },
+    info:  { label: 'INFO',  cls: 'console-info' },
+    warn:  { label: 'WARN',  cls: 'console-warn' },
+    error: { label: 'ERR',   cls: 'console-error' },
+  };
+  Object.entries(levels).forEach(([method, { label, cls }]) => {
+    const orig = console[method].bind(console);
+    console[method] = function (...args) {
+      orig(...args);
+      const p = panel();
+      if (!p) return;
+      const line = document.createElement('div');
+      line.className = 'console-line ' + cls;
+      const time = new Date().toLocaleTimeString('pt-BR', { hour12: false });
+      line.textContent = `[${time}] ${label}: ` + args.map(a => {
+        try { return typeof a === 'object' ? JSON.stringify(a) : String(a); }
+        catch { return String(a); }
+      }).join(' ');
+      p.appendChild(line);
+      p.scrollTop = p.scrollHeight;
+    };
+  });
+})();
+
 async function trainModel(inputXs, outputYs) {
     console.log('Iniciando treinamento do modelo...');
     const model = tf.sequential();
