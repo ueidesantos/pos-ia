@@ -8,6 +8,13 @@ body {
       padding: 24px;
     }
 
+    .main > h3 {
+      font-size: clamp(1rem, 2.5vw, 1.6rem);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
     .card {
       border-radius: 16px;
       box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
