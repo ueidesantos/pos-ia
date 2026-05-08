@@ -12,7 +12,12 @@
 
 <body>
   <div class="main">
-    <h3 class="mb-4">Classificação de Atenção em Saúde para Alzheimer</h3>
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+      <h3 class="mb-0">Classificação de Atenção em Saúde para Alzheimer</h3>
+      <button id="trainingPanelToggle" type="button" class="btn btn-sm btn-outline-secondary">
+        Mostrar painel de treinamento
+      </button>
+    </div>
 
     <div class="row">
       <div class="col-lg-8">
@@ -20,7 +25,16 @@
           <div class="card-header">
             <h4 class="mb-0">Formulário do Paciente</h4>
           </div>
-          <div class="card-body">
+          <div class="card-body form-panel-wrapper">
+            <div id="trainingOverlay" class="training-overlay" aria-live="polite" aria-atomic="true">
+              <div class="training-overlay-content">
+                <h5 class="mb-2">Preparando o sistema</h5>
+                <p id="trainingStatusMessage" class="mb-2">Estamos treinando o modelo para começar as classificações com segurança.</p>
+                <div class="training-progress-value">
+                  Treinamento: <strong id="trainingProgressText">0%</strong>
+                </div>
+              </div>
+            </div>
             <form id="healthForm">
               <div class="row">
                 <div class="col-md-6 mb-3">

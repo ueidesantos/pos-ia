@@ -21,6 +21,43 @@ body {
       border: 0;
     }
 
+    .form-panel-wrapper {
+      position: relative;
+      min-height: 420px;
+    }
+
+    .training-overlay {
+      position: absolute;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border-radius: 0 0 16px 16px;
+      background: rgba(245, 247, 251, 0.92);
+      backdrop-filter: blur(2px);
+      z-index: 10;
+      text-align: center;
+    }
+
+    .training-overlay.is-visible {
+      display: flex;
+    }
+
+    .training-overlay-content {
+      max-width: 420px;
+      background: #ffffff;
+      border: 1px solid #dbe6ff;
+      box-shadow: 0 8px 24px rgba(42, 69, 120, 0.12);
+      border-radius: 12px;
+      padding: 18px 16px;
+    }
+
+    .training-progress-value {
+      font-size: 1rem;
+      color: #1f3c88;
+    }
+
     .result-box {
       border-radius: 12px;
       padding: 20px;

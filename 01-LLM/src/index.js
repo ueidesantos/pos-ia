@@ -21,6 +21,94 @@ const WEIGHT_VECTOR = [
     WEIGHTS.Sono, WEIGHTS.QualidadeDieta, WEIGHTS.AtividadeFisica
 ];
 
+const trainingHistory = { loss: [], acc: [] };
+let showTrainingPanel = false;
+const TRAINING_EPOCHS = 80;
+
+function renderTrainingCharts() {
+    if (!trainingHistory.acc.length && !trainingHistory.loss.length) return;
+
+    tfvis.render.linechart(
+        { name: 'Precisão do Modelo', tab: 'Treinamento' },
+        { values: trainingHistory.acc.map((v, i) => ({ x: i, y: v })), series: ['precisão'] },
+        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Precisão (%)', yAxisDomain: [0, 1] }
+    );
+
+    tfvis.render.linechart(
+        { name: 'Erro de Treinamento', tab: 'Treinamento' },
+        { values: trainingHistory.loss.map((v, i) => ({ x: i, y: v })), series: ['erros'] },
+        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Valor do Erro', yAxisDomain: [0, 1] }
+    );
+}
+
+function updateTrainingPanelToggleButton(button) {
+    if (!button) return;
+
+    button.textContent = showTrainingPanel
+        ? 'Ocultar painel de treinamento'
+        : 'Mostrar painel de treinamento';
+    button.classList.toggle('btn-outline-secondary', !showTrainingPanel);
+    button.classList.toggle('btn-secondary', showTrainingPanel);
+}
+
+function setTrainingPanelVisibility(visible) {
+    showTrainingPanel = visible;
+
+    if (showTrainingPanel) {
+        renderTrainingCharts();
+        tfvis.visor().open();
+    } else {
+        tfvis.visor().close();
+    }
+
+    updateTrainingPanelToggleButton(document.getElementById('trainingPanelToggle'));
+}
+
+function setFormEnabled(enabled) {
+    const form = document.getElementById('healthForm');
+    if (!form) return;
+
+    const controls = form.querySelectorAll('input, select, button, textarea');
+    controls.forEach((element) => {
+        element.disabled = !enabled;
+    });
+}
+
+function getTrainingMessage(progressPercent) {
+    if (progressPercent < 35) {
+        return 'Estamos organizando os dados para o modelo aprender.';
+    }
+    if (progressPercent < 80) {
+        return 'O modelo esta treinando e melhorando a precisao das classificacoes.';
+    }
+    return 'Quase pronto! Estamos finalizando os ultimos ajustes do treinamento.';
+}
+
+function updateTrainingOverlay(progressPercent) {
+    const overlay = document.getElementById('trainingOverlay');
+    const progressText = document.getElementById('trainingProgressText');
+    const statusMessage = document.getElementById('trainingStatusMessage');
+    if (!overlay) return;
+
+    overlay.classList.add('is-visible');
+    if (progressText) {
+        const boundedPercent = Math.max(0, Math.min(100, progressPercent));
+        progressText.textContent = `${boundedPercent}%`;
+    }
+    if (statusMessage) {
+        statusMessage.textContent = getTrainingMessage(progressPercent);
+    }
+    setFormEnabled(false);
+}
+
+function hideTrainingOverlay() {
+    const overlay = document.getElementById('trainingOverlay');
+    if (overlay) {
+        overlay.classList.remove('is-visible');
+    }
+    setFormEnabled(true);
+}
+
 (function () {
   const panel = () => document.getElementById('consoleOutput');
   const levels = {
@@ -50,6 +138,8 @@ const WEIGHT_VECTOR = [
 
 async function trainModel(inputXs, outputYs) {
     console.log('Iniciando treinamento do modelo...');
+    updateTrainingOverlay(0);
+
     const model = tf.sequential();
     model.add(tf.layers.dense({ inputShape: [inputXs.shape[1]], units: 150, activation: 'relu' }));
 
@@ -61,36 +151,35 @@ async function trainModel(inputXs, outputYs) {
         metrics: ['accuracy']
     });
 
-    const surface = { name: 'Treinamento', tab: 'Treinamento' };
-    const history = { loss: [], acc: [] };
+    try {
+        await model.fit(inputXs, outputYs, 
+            {
+                verbose: 1,
+                shuffle: true,
+                epochs: TRAINING_EPOCHS,
+                batchSize: 32,
+                validationSplit: 0.2,
+                callbacks: {
+                    onEpochEnd: (epoch, logs) => {
+                        console.log(`Epoch ${epoch + 1}: loss = ${logs.loss}, accuracy = ${logs.acc}`);
+                        trainingHistory.loss.push(logs.loss);
+                        trainingHistory.acc.push(logs.acc);
 
-    await model.fit(inputXs, outputYs, 
-        {
-            verbose: 1,
-            shuffle: true,
-            epochs: 200,
-            batchSize: 32,
-            validationSplit: 0.2,
-            callbacks: {
-                onEpochEnd: (epoch, logs) => {
-                    console.log(`Epoch ${epoch + 1}: loss = ${logs.loss}, accuracy = ${logs.acc}`);
-                    history.loss.push(logs.loss);
-                    history.acc.push(logs.acc);
-                    tfvis.render.linechart(
-                        { name: 'Precisão do Modelo', tab: 'Treinamento' },
-                        { values: history.acc.map((v, i) => ({ x: i, y: v })), series: ['precisão'] },
-                        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Precisão (%)', yAxisDomain: [0, 1] }
-                    );
-                    tfvis.render.linechart(
-                        { name: 'Erro de Treinamento', tab: 'Treinamento' },
-                        { values: history.loss.map((v, i) => ({ x: i, y: v })), series: ['erros'] },
-                        { xLabel: 'Época (Ciclos de Treinamento)', yLabel: 'Valor do Erro', yAxisDomain: [0, 1] }
-                    );
+                        const percent = Math.round(((epoch + 1) / TRAINING_EPOCHS) * 100);
+                        updateTrainingOverlay(percent);
+
+                        if (showTrainingPanel) {
+                            renderTrainingCharts();
+                        }
+                    }
                 }
-            }
-    });
-    console.log('Treinamento concluído.');
-    return model;
+        });
+        updateTrainingOverlay(100);
+        console.log('Treinamento concluído.');
+        return model;
+    } finally {
+        hideTrainingOverlay();
+    }
 }
 
 const historicalDatabaseService = new HistoricalDatabaseService();
@@ -153,6 +242,15 @@ const resultBox = document.getElementById('resultBox');
 const resultadoTitulo = document.getElementById('resultadoTitulo');
 const resultadoTexto = document.getElementById('resultadoTexto');
 const fatoresLista = document.getElementById('fatoresLista');
+const trainingPanelToggle = document.getElementById('trainingPanelToggle');
+
+setTrainingPanelVisibility(false);
+
+if (trainingPanelToggle) {
+    trainingPanelToggle.addEventListener('click', function () {
+        setTrainingPanelVisibility(!showTrainingPanel);
+    });
+}
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
