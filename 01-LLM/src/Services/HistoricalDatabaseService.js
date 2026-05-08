@@ -16,7 +16,7 @@ if (!tf) {
     throw new Error('TensorFlow.js não encontrado. Carregue o script do TFJS antes dos módulos da aplicação.');
 }
 
-const CSV_PATH = '/Data/Dataset_Alzheimer.csv';
+const CSV_PATH = './Data/Dataset_Alzheimer.csv';
 
 const FEATURE_COLUMNS = [
     'Idade', 'Genero', 'Diabetes', 'Depressao',
