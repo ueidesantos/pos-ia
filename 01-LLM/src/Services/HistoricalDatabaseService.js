@@ -1,5 +1,17 @@
 const tf = globalThis.tf;
-
+const WEIGHTS = 
+{
+    Idade: 0.3,
+    AtividadeFisica: 0.2,
+    QualidadeDieta: 0.2,
+    Sono: 0.2,
+    Depressao: 0.1,
+    Genero: 0.1,
+    Diabetes: 0.1,
+    QueixasMemoria: 0.3,
+    Confusao: 0.3,
+    Hipertenso: 0.1,
+};
 if (!tf) {
     throw new Error('TensorFlow.js não encontrado. Carregue o script do TFJS antes dos módulos da aplicação.');
 }

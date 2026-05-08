@@ -1,4 +1,25 @@
 import { HistoricalDatabaseService } from './Services/HistoricalDatabaseService.js';
+const WEIGHTS = 
+{
+    Idade: 0.3,
+    AtividadeFisica: 0.2,
+    QualidadeDieta: 0.2,
+    Sono: 0.2,
+    Depressao: 0.1,
+    Genero: 0.1,
+    Diabetes: 0.1,
+    QueixasMemoria: 0.3,
+    Confusao: 0.3,
+    Hipertenso: 0.1,
+};
+
+// Vetor de pesos na mesma ordem de FEATURE_COLUMNS do HistoricalDatabaseService
+// ['Idade','Genero','Diabetes','Depressao','QueixasMemoria','Confusao','Hipertenso','Sono','QualidadeDieta','AtividadeFisica']
+const WEIGHT_VECTOR = [
+    WEIGHTS.Idade, WEIGHTS.Genero, WEIGHTS.Diabetes, WEIGHTS.Depressao,
+    WEIGHTS.QueixasMemoria, WEIGHTS.Confusao, WEIGHTS.Hipertenso,
+    WEIGHTS.Sono, WEIGHTS.QualidadeDieta, WEIGHTS.AtividadeFisica
+];
 
 (function () {
   const panel = () => document.getElementById('consoleOutput');
@@ -30,7 +51,7 @@ import { HistoricalDatabaseService } from './Services/HistoricalDatabaseService.
 async function trainModel(inputXs, outputYs) {
     console.log('Iniciando treinamento do modelo...');
     const model = tf.sequential();
-    model.add(tf.layers.dense({ inputShape: [inputXs.shape[1]], units: 80, activation: 'relu' }));
+    model.add(tf.layers.dense({ inputShape: [inputXs.shape[1]], units: 150, activation: 'relu' }));
 
     //Saída: 4 neuronios para cada classe
     model.add(tf.layers.dense({ units: 4, activation: 'softmax' }));
@@ -47,7 +68,7 @@ async function trainModel(inputXs, outputYs) {
         {
             verbose: 1,
             shuffle: true,
-            epochs: 100,
+            epochs: 200,
             batchSize: 32,
             validationSplit: 0.2,
             callbacks: {
@@ -79,7 +100,11 @@ console.log(`Base histórica carregada. Total de registros: ${result.size}`);
 console.log('Primeiro registro:', result.records[0]);
 console.log('Result:', result);
 
-const model = await trainModel(result.featureTensor, tf.oneHot(result.labelTensor, 4));
+const weightTensor = tf.tensor1d(WEIGHT_VECTOR);
+const weightedFeatures = result.featureTensor.mul(weightTensor);
+weightTensor.dispose();
+
+const model = await trainModel(weightedFeatures, tf.oneHot(result.labelTensor, 4));
 
 const LABEL_NAMES = result.labelNames;
 
@@ -94,16 +119,16 @@ function predict(model, formData) {
     console.log('Realizando previsão com os dados do formulário:', formData);
     const idadeNormalizada = Math.min(formData.idade / 120, 1);
     const input = tf.tensor2d([[
-        idadeNormalizada,
-        formData.genero,
-        formData.diabetes,
-        formData.depressao,
-        formData.queixasMemoria,
-        formData.confusao,
-        formData.hipertenso,
-        formData.sono,
-        formData.qualidadeDieta,
-        formData.atividadeFisica
+        idadeNormalizada * WEIGHTS.Idade,
+        formData.genero * WEIGHTS.Genero,
+        formData.diabetes * WEIGHTS.Diabetes,
+        formData.depressao * WEIGHTS.Depressao,
+        formData.queixasMemoria * WEIGHTS.QueixasMemoria,
+        formData.confusao * WEIGHTS.Confusao,
+        formData.hipertenso * WEIGHTS.Hipertenso,
+        formData.sono * WEIGHTS.Sono,
+        formData.qualidadeDieta * WEIGHTS.QualidadeDieta,
+        formData.atividadeFisica * WEIGHTS.AtividadeFisica
     ]]);
 
     const prediction = model.predict(input);

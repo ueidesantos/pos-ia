@@ -126,6 +126,16 @@
             </div>
           </div>
         </div>
+
+        <div class="card mb-3">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Console</h4>
+            <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('consoleOutput').innerHTML=''" title="Limpar">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+          <div id="consoleOutput" class="console-panel"></div>
+        </div>
       </div>
 
       <div class="col-lg-4">
@@ -144,18 +154,28 @@
               <li>Confusão aumenta fortemente a prioridade</li>
               <li>Sono ruim, dieta ruim e sedentarismo somam fatores de risco</li>
             </ul>
+            <hr class="my-2">
+            <p class="small-note mb-1"><strong>Pesos aplicados no Machine Learning:</strong></p>
+            <table class="table table-sm table-bordered mb-0" style="font-size:0.82rem;">
+              <thead class="table-light">
+                <tr><th>Feature</th><th>Peso</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Idade</td><td>0.30</td></tr>
+                <tr><td>Queixas de Memória</td><td>0.30</td></tr>
+                <tr><td>Confusão</td><td>0.30</td></tr>
+                <tr><td>Atividade Física</td><td>0.20</td></tr>
+                <tr><td>Qualidade da Dieta</td><td>0.20</td></tr>
+                <tr><td>Sono</td><td>0.20</td></tr>
+                <tr><td>Depressão</td><td>0.10</td></tr>
+                <tr><td>Gênero</td><td>0.10</td></tr>
+                <tr><td>Diabetes</td><td>0.10</td></tr>
+                <tr><td>Hipertensão</td><td>0.10</td></tr>
+              </tbody>
+            </table>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-header d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">Console</h4>
-            <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('consoleOutput').innerHTML=''" title="Limpar">
-              <i class="bi bi-trash"></i>
-            </button>
-          </div>
-          <div id="consoleOutput" class="console-panel"></div>
-        </div>
       </div>
     </div>
   </div>
