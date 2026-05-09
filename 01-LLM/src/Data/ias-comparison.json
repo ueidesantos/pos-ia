@@ -1,0 +1,1688 @@
+{
+  "DEEPSEEK": [
+    {
+      "Ranking": "1",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "3079",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "3367358"
+    },
+    {
+      "Ranking": "2",
+      "País": "Itália",
+      "Taxa por 100 mil habitantes": "2270",
+      "População Estimada (2024)": "58968501",
+      "Casos Estimados (Alzheimer + Demências)": "1427946"
+    },
+    {
+      "Ranking": "3",
+      "País": "Eslovênia",
+      "Taxa por 100 mil habitantes": "1963",
+      "População Estimada (2024)": "2118937",
+      "Casos Estimados (Alzheimer + Demências)": "41580"
+    },
+    {
+      "Ranking": "4",
+      "País": "Mônaco",
+      "Taxa por 100 mil habitantes": "1962",
+      "População Estimada (2024)": "38000",
+      "Casos Estimados (Alzheimer + Demências)": "746"
+    },
+    {
+      "Ranking": "5",
+      "País": "Grécia",
+      "Taxa por 100 mil habitantes": "1875",
+      "População Estimada (2024)": "10341277",
+      "Casos Estimados (Alzheimer + Demências)": "193950"
+    },
+    {
+      "Ranking": "6",
+      "País": "Alemanha",
+      "Taxa por 100 mil habitantes": "1864",
+      "População Estimada (2024)": "84552242",
+      "Casos Estimados (Alzheimer + Demências)": "1995249"
+    },
+    {
+      "Ranking": "7",
+      "País": "Estônia",
+      "Taxa por 100 mil habitantes": "1832",
+      "População Estimada (2024)": "1322765",
+      "Casos Estimados (Alzheimer + Demências)": "24240"
+    },
+    {
+      "Ranking": "8",
+      "País": "Portugal",
+      "Taxa por 100 mil habitantes": "1785",
+      "População Estimada (2024)": "10223000",
+      "Casos Estimados (Alzheimer + Demências)": "203138"
+    },
+    {
+      "Ranking": "9",
+      "País": "Bélgica",
+      "Taxa por 100 mil habitantes": "1750",
+      "População Estimada (2024)": "11720716",
+      "Casos Estimados (Alzheimer + Demências)": "205112"
+    },
+    {
+      "Ranking": "10",
+      "País": "Finlândia",
+      "Taxa por 100 mil habitantes": "1740",
+      "População Estimada (2024)": "5582000",
+      "Casos Estimados (Alzheimer + Demências)": "93880"
+    },
+    {
+      "Ranking": "11",
+      "País": "Canadá",
+      "Taxa por 100 mil habitantes": "1685",
+      "População Estimada (2024)": "38781291",
+      "Casos Estimados (Alzheimer + Demências)": "631350"
+    },
+    {
+      "Ranking": "12",
+      "País": "Malta",
+      "Taxa por 100 mil habitantes": "1651",
+      "População Estimada (2024)": "535000",
+      "Casos Estimados (Alzheimer + Demências)": "8833"
+    },
+    {
+      "Ranking": "13",
+      "País": "Suécia",
+      "Taxa por 100 mil habitantes": "1640",
+      "População Estimada (2024)": "10612000",
+      "Casos Estimados (Alzheimer + Demências)": "168686"
+    },
+    {
+      "Ranking": "14",
+      "País": "Estados Unidos",
+      "Taxa por 100 mil habitantes": "1466",
+      "População Estimada (2024)": "345426571",
+      "Casos Estimados (Alzheimer + Demências)": "4876579"
+    },
+    {
+      "Ranking": "15",
+      "País": "Coreia do Sul",
+      "Taxa por 100 mil habitantes": "1352",
+      "População Estimada (2024)": "51000000",
+      "Casos Estimados (Alzheimer + Demências)": "697045"
+    },
+    {
+      "Ranking": "16",
+      "País": "Reino Unido",
+      "Taxa por 100 mil habitantes": "1336",
+      "População Estimada (2024)": "67000000",
+      "Casos Estimados (Alzheimer + Demências)": "906467"
+    },
+    {
+      "Ranking": "17",
+      "País": "Países Baixos",
+      "Taxa por 100 mil habitantes": "1320",
+      "População Estimada (2024)": "17618299",
+      "Casos Estimados (Alzheimer + Demências)": "278819"
+    },
+    {
+      "Ranking": "18",
+      "País": "Dinamarca",
+      "Taxa por 100 mil habitantes": "1290",
+      "População Estimada (2024)": "5950000",
+      "Casos Estimados (Alzheimer + Demências)": "88512"
+    },
+    {
+      "Ranking": "19",
+      "País": "Islândia",
+      "Taxa por 100 mil habitantes": "1293",
+      "População Estimada (2024)": "375000",
+      "Casos Estimados (Alzheimer + Demências)": "4530"
+    },
+    {
+      "Ranking": "20",
+      "País": "França",
+      "Taxa por 100 mil habitantes": "1270",
+      "População Estimada (2024)": "64756584",
+      "Casos Estimados (Alzheimer + Demências)": "924607"
+    },
+    {
+      "Ranking": "21",
+      "País": "Espanha",
+      "Taxa por 100 mil habitantes": "1260",
+      "População Estimada (2024)": "47519628",
+      "Casos Estimados (Alzheimer + Demências)": "713870"
+    },
+    {
+      "Ranking": "22",
+      "País": "Suíça",
+      "Taxa por 100 mil habitantes": "1250",
+      "População Estimada (2024)": "8800000",
+      "Casos Estimados (Alzheimer + Demências)": "139107"
+    },
+    {
+      "Ranking": "23",
+      "País": "Noruega",
+      "Taxa por 100 mil habitantes": "1240",
+      "População Estimada (2024)": "5500000",
+      "Casos Estimados (Alzheimer + Demências)": "94540"
+    },
+    {
+      "Ranking": "24",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "1194",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "16990827"
+    },
+    {
+      "Ranking": "25",
+      "País": "Austrália",
+      "Taxa por 100 mil habitantes": "1180",
+      "População Estimada (2024)": "26000000",
+      "Casos Estimados (Alzheimer + Demências)": "421000"
+    },
+    {
+      "Ranking": "26",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "1109",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "1605863"
+    },
+    {
+      "Ranking": "27",
+      "País": "Irlanda",
+      "Taxa por 100 mil habitantes": "1050",
+      "População Estimada (2024)": "5200000",
+      "Casos Estimados (Alzheimer + Demências)": "54600"
+    },
+    {
+      "Ranking": "28",
+      "País": "Polônia",
+      "Taxa por 100 mil habitantes": "1012",
+      "População Estimada (2024)": "37700000",
+      "Casos Estimados (Alzheimer + Demências)": "344745"
+    },
+    {
+      "Ranking": "29",
+      "País": "Áustria",
+      "Taxa por 100 mil habitantes": "1003",
+      "População Estimada (2024)": "9000000",
+      "Casos Estimados (Alzheimer + Demências)": "122568"
+    },
+    {
+      "Ranking": "30",
+      "País": "República Tcheca",
+      "Taxa por 100 mil habitantes": "988",
+      "População Estimada (2024)": "10700000",
+      "Casos Estimados (Alzheimer + Demências)": "105716"
+    },
+    {
+      "Ranking": "31",
+      "País": "Israel",
+      "Taxa por 100 mil habitantes": "972",
+      "População Estimada (2024)": "9200000",
+      "Casos Estimados (Alzheimer + Demências)": "89424"
+    },
+    {
+      "Ranking": "32",
+      "País": "Nova Zelândia",
+      "Taxa por 100 mil habitantes": "950",
+      "População Estimada (2024)": "5100000",
+      "Casos Estimados (Alzheimer + Demências)": "48450"
+    },
+    {
+      "Ranking": "33",
+      "País": "Croácia",
+      "Taxa por 100 mil habitantes": "935",
+      "População Estimada (2024)": "4050000",
+      "Casos Estimados (Alzheimer + Demências)": "37868"
+    },
+    {
+      "Ranking": "34",
+      "País": "Bielorrússia",
+      "Taxa por 100 mil habitantes": "920",
+      "População Estimada (2024)": "9450000",
+      "Casos Estimados (Alzheimer + Demências)": "86940"
+    },
+    {
+      "Ranking": "35",
+      "País": "Hungria",
+      "Taxa por 100 mil habitantes": "905",
+      "População Estimada (2024)": "9500000",
+      "Casos Estimados (Alzheimer + Demências)": "85975"
+    },
+    {
+      "Ranking": "36",
+      "País": "Eslováquia",
+      "Taxa por 100 mil habitantes": "890",
+      "População Estimada (2024)": "5450000",
+      "Casos Estimados (Alzheimer + Demências)": "48505"
+    },
+    {
+      "Ranking": "37",
+      "País": "Ucrânia",
+      "Taxa por 100 mil habitantes": "875",
+      "População Estimada (2024)": "41000000",
+      "Casos Estimados (Alzheimer + Demências)": "358750"
+    },
+    {
+      "Ranking": "38",
+      "País": "Bulgária",
+      "Taxa por 100 mil habitantes": "860",
+      "População Estimada (2024)": "6850000",
+      "Casos Estimados (Alzheimer + Demências)": "58910"
+    },
+    {
+      "Ranking": "39",
+      "País": "Sérvia",
+      "Taxa por 100 mil habitantes": "845",
+      "População Estimada (2024)": "7200000",
+      "Casos Estimados (Alzheimer + Demências)": "60840"
+    },
+    {
+      "Ranking": "40",
+      "País": "Letônia",
+      "Taxa por 100 mil habitantes": "830",
+      "População Estimada (2024)": "1850000",
+      "Casos Estimados (Alzheimer + Demências)": "15355"
+    },
+    {
+      "Ranking": "41",
+      "País": "Lituânia",
+      "Taxa por 100 mil habitantes": "815",
+      "População Estimada (2024)": "2700000",
+      "Casos Estimados (Alzheimer + Demências)": "22005"
+    },
+    {
+      "Ranking": "42",
+      "País": "Chile",
+      "Taxa por 100 mil habitantes": "800",
+      "População Estimada (2024)": "19500000",
+      "Casos Estimados (Alzheimer + Demências)": "156000"
+    },
+    {
+      "Ranking": "43",
+      "País": "Uruguai",
+      "Taxa por 100 mil habitantes": "785",
+      "População Estimada (2024)": "3500000",
+      "Casos Estimados (Alzheimer + Demências)": "27475"
+    },
+    {
+      "Ranking": "44",
+      "País": "Argentina",
+      "Taxa por 100 mil habitantes": "770",
+      "População Estimada (2024)": "46000000",
+      "Casos Estimados (Alzheimer + Demências)": "354200"
+    },
+    {
+      "Ranking": "45",
+      "País": "Cuba",
+      "Taxa por 100 mil habitantes": "755",
+      "População Estimada (2024)": "11200000",
+      "Casos Estimados (Alzheimer + Demências)": "84560"
+    },
+    {
+      "Ranking": "46",
+      "País": "Costa Rica",
+      "Taxa por 100 mil habitantes": "740",
+      "População Estimada (2024)": "5200000",
+      "Casos Estimados (Alzheimer + Demências)": "38480"
+    },
+    {
+      "Ranking": "47",
+      "País": "Panamá",
+      "Taxa por 100 mil habitantes": "725",
+      "População Estimada (2024)": "4500000",
+      "Casos Estimados (Alzheimer + Demências)": "32625"
+    },
+    {
+      "Ranking": "48",
+      "País": "México",
+      "Taxa por 100 mil habitantes": "710",
+      "População Estimada (2024)": "130000000",
+      "Casos Estimados (Alzheimer + Demências)": "923000"
+    },
+    {
+      "Ranking": "49",
+      "País": "Colômbia",
+      "Taxa por 100 mil habitantes": "695",
+      "População Estimada (2024)": "52000000",
+      "Casos Estimados (Alzheimer + Demências)": "361400"
+    },
+    {
+      "Ranking": "50",
+      "País": "Peru",
+      "Taxa por 100 mil habitantes": "680",
+      "População Estimada (2024)": "34000000",
+      "Casos Estimados (Alzheimer + Demências)": "231200"
+    },
+    {
+      "Ranking": "51",
+      "País": "Brasil",
+      "Taxa por 100 mil habitantes": "665",
+      "População Estimada (2024)": "215000000",
+      "Casos Estimados (Alzheimer + Demências)": "1429750"
+    },
+    {
+      "Ranking": "52",
+      "País": "Equador",
+      "Taxa por 100 mil habitantes": "650",
+      "População Estimada (2024)": "18000000",
+      "Casos Estimados (Alzheimer + Demências)": "117000"
+    },
+    {
+      "Ranking": "53",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "635",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "9012805"
+    },
+    {
+      "Ranking": "54",
+      "País": "Índia",
+      "Taxa por 100 mil habitantes": "620",
+      "População Estimada (2024)": "1400000000",
+      "Casos Estimados (Alzheimer + Demências)": "86800000"
+    },
+    {
+      "Ranking": "55",
+      "País": "Indonésia",
+      "Taxa por 100 mil habitantes": "605",
+      "População Estimada (2024)": "280000000",
+      "Casos Estimados (Alzheimer + Demências)": "16940000"
+    },
+    {
+      "Ranking": "56",
+      "País": "Pakistão",
+      "Taxa por 100 mil habitantes": "590",
+      "População Estimada (2024)": "240000000",
+      "Casos Estimados (Alzheimer + Demências)": "14160000"
+    },
+    {
+      "Ranking": "57",
+      "País": "Nigéria",
+      "Taxa por 100 mil habitantes": "575",
+      "População Estimada (2024)": "220000000",
+      "Casos Estimados (Alzheimer + Demências)": "12650000"
+    },
+    {
+      "Ranking": "58",
+      "País": "Bangladesh",
+      "Taxa por 100 mil habitantes": "560",
+      "População Estimada (2024)": "170000000",
+      "Casos Estimados (Alzheimer + Demências)": "9520000"
+    },
+    {
+      "Ranking": "59",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "545",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "7848000"
+    },
+    {
+      "Ranking": "60",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "530",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "6558041"
+    },
+    {
+      "Ranking": "61",
+      "País": "Brasil",
+      "Taxa por 100 mil habitantes": "515",
+      "População Estimada (2024)": "215000000",
+      "Casos Estimados (Alzheimer + Demências)": "11072500"
+    },
+    {
+      "Ranking": "62",
+      "País": "Estados Unidos",
+      "Taxa por 100 mil habitantes": "500",
+      "População Estimada (2024)": "345426571",
+      "Casos Estimados (Alzheimer + Demências)": "1727132855"
+    },
+    {
+      "Ranking": "63",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "485",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "68837483"
+    },
+    {
+      "Ranking": "64",
+      "País": "Índia",
+      "Taxa por 100 mil habitantes": "470",
+      "População Estimada (2024)": "1400000000",
+      "Casos Estimados (Alzheimer + Demências)": "658000000"
+    },
+    {
+      "Ranking": "65",
+      "País": "Indonésia",
+      "Taxa por 100 mil habitantes": "455",
+      "População Estimada (2024)": "280000000",
+      "Casos Estimados (Alzheimer + Demências)": "127400000"
+    },
+    {
+      "Ranking": "66",
+      "País": "Pakistão",
+      "Taxa por 100 mil habitantes": "440",
+      "População Estimada (2024)": "240000000",
+      "Casos Estimados (Alzheimer + Demências)": "105600000"
+    },
+    {
+      "Ranking": "67",
+      "País": "Nigéria",
+      "Taxa por 100 mil habitantes": "425",
+      "População Estimada (2024)": "220000000",
+      "Casos Estimados (Alzheimer + Demências)": "93500000"
+    },
+    {
+      "Ranking": "68",
+      "País": "Bangladesh",
+      "Taxa por 100 mil habitantes": "410",
+      "População Estimada (2024)": "170000000",
+      "Casos Estimados (Alzheimer + Demências)": "69700000"
+    },
+    {
+      "Ranking": "69",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "395",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "56880000"
+    },
+    {
+      "Ranking": "70",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "380",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "47056756"
+    },
+    {
+      "Ranking": "71",
+      "País": "Brasil",
+      "Taxa por 100 mil habitantes": "365",
+      "População Estimada (2024)": "215000000",
+      "Casos Estimados (Alzheimer + Demências)": "78475000"
+    },
+    {
+      "Ranking": "72",
+      "País": "Estados Unidos",
+      "Taxa por 100 mil habitantes": "350",
+      "População Estimada (2024)": "345426571",
+      "Casos Estimados (Alzheimer + Demências)": "120904300"
+    },
+    {
+      "Ranking": "73",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "335",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "47563114"
+    },
+    {
+      "Ranking": "74",
+      "País": "Índia",
+      "Taxa por 100 mil habitantes": "320",
+      "População Estimada (2024)": "1400000000",
+      "Casos Estimados (Alzheimer + Demências)": "448000000"
+    },
+    {
+      "Ranking": "75",
+      "País": "Indonésia",
+      "Taxa por 100 mil habitantes": "305",
+      "População Estimada (2024)": "280000000",
+      "Casos Estimados (Alzheimer + Demências)": "85400000"
+    },
+    {
+      "Ranking": "76",
+      "País": "Pakistão",
+      "Taxa por 100 mil habitantes": "290",
+      "População Estimada (2024)": "240000000",
+      "Casos Estimados (Alzheimer + Demências)": "69600000"
+    },
+    {
+      "Ranking": "77",
+      "País": "Nigéria",
+      "Taxa por 100 mil habitantes": "275",
+      "População Estimada (2024)": "220000000",
+      "Casos Estimados (Alzheimer + Demências)": "60500000"
+    },
+    {
+      "Ranking": "78",
+      "País": "Bangladesh",
+      "Taxa por 100 mil habitantes": "260",
+      "População Estimada (2024)": "170000000",
+      "Casos Estimados (Alzheimer + Demências)": "44200000"
+    },
+    {
+      "Ranking": "79",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "245",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "35280000"
+    },
+    {
+      "Ranking": "80",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "230",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "28465799"
+    },
+    {
+      "Ranking": "81",
+      "País": "Brasil",
+      "Taxa por 100 mil habitantes": "215",
+      "População Estimada (2024)": "215000000",
+      "Casos Estimados (Alzheimer + Demências)": "46225000"
+    },
+    {
+      "Ranking": "82",
+      "País": "Estados Unidos",
+      "Taxa por 100 mil habitantes": "200",
+      "População Estimada (2024)": "345426571",
+      "Casos Estimados (Alzheimer + Demências)": "69085314"
+    },
+    {
+      "Ranking": "83",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "185",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "26251444"
+    },
+    {
+      "Ranking": "84",
+      "País": "Índia",
+      "Taxa por 100 mil habitantes": "170",
+      "População Estimada (2024)": "1400000000",
+      "Casos Estimados (Alzheimer + Demências)": "238000000"
+    },
+    {
+      "Ranking": "85",
+      "País": "Indonésia",
+      "Taxa por 100 mil habitantes": "155",
+      "População Estimada (2024)": "280000000",
+      "Casos Estimados (Alzheimer + Demências)": "43400000"
+    },
+    {
+      "Ranking": "86",
+      "País": "Pakistão",
+      "Taxa por 100 mil habitantes": "140",
+      "População Estimada (2024)": "240000000",
+      "Casos Estimados (Alzheimer + Demências)": "33600000"
+    },
+    {
+      "Ranking": "87",
+      "País": "Nigéria",
+      "Taxa por 100 mil habitantes": "125",
+      "População Estimada (2024)": "220000000",
+      "Casos Estimados (Alzheimer + Demências)": "27500000"
+    },
+    {
+      "Ranking": "88",
+      "País": "Bangladesh",
+      "Taxa por 100 mil habitantes": "110",
+      "População Estimada (2024)": "170000000",
+      "Casos Estimados (Alzheimer + Demências)": "18700000"
+    },
+    {
+      "Ranking": "89",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "95",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "13680000"
+    },
+    {
+      "Ranking": "90",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "80",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "9900243"
+    },
+    {
+      "Ranking": "91",
+      "País": "Brasil",
+      "Taxa por 100 mil habitantes": "65",
+      "População Estimada (2024)": "215000000",
+      "Casos Estimados (Alzheimer + Demências)": "13975000"
+    },
+    {
+      "Ranking": "92",
+      "País": "Estados Unidos",
+      "Taxa por 100 mil habitantes": "50",
+      "População Estimada (2024)": "345426571",
+      "Casos Estimados (Alzheimer + Demências)": "17271329"
+    },
+    {
+      "Ranking": "93",
+      "País": "China",
+      "Taxa por 100 mil habitantes": "35",
+      "População Estimada (2024)": "1419321278",
+      "Casos Estimados (Alzheimer + Demências)": "49676245"
+    },
+    {
+      "Ranking": "94",
+      "País": "Índia",
+      "Taxa por 100 mil habitantes": "20",
+      "População Estimada (2024)": "1400000000",
+      "Casos Estimados (Alzheimer + Demências)": "28000000"
+    },
+    {
+      "Ranking": "95",
+      "País": "Indonésia",
+      "Taxa por 100 mil habitantes": "5",
+      "População Estimada (2024)": "280000000",
+      "Casos Estimados (Alzheimer + Demências)": "1400000"
+    },
+    {
+      "Ranking": "96",
+      "País": "Pakistão",
+      "Taxa por 100 mil habitantes": "25",
+      "População Estimada (2024)": "240000000",
+      "Casos Estimados (Alzheimer + Demências)": "6000000"
+    },
+    {
+      "Ranking": "97",
+      "País": "Nigéria",
+      "Taxa por 100 mil habitantes": "40",
+      "População Estimada (2024)": "220000000",
+      "Casos Estimados (Alzheimer + Demências)": "8800000"
+    },
+    {
+      "Ranking": "98",
+      "País": "Bangladesh",
+      "Taxa por 100 mil habitantes": "55",
+      "População Estimada (2024)": "170000000",
+      "Casos Estimados (Alzheimer + Demências)": "9350000"
+    },
+    {
+      "Ranking": "99",
+      "País": "Rússia",
+      "Taxa por 100 mil habitantes": "70",
+      "População Estimada (2024)": "144000000",
+      "Casos Estimados (Alzheimer + Demências)": "10080000"
+    },
+    {
+      "Ranking": "100",
+      "País": "Japão",
+      "Taxa por 100 mil habitantes": "85",
+      "População Estimada (2024)": "123753041",
+      "Casos Estimados (Alzheimer + Demências)": "10519009"
+    }
+  ],
+  "CHATGPT": [
+    {
+      "Rank": 1,
+      "País": "Japão",
+      "Pacientes estimados": 3367358,
+      "% População": "2,64%",
+      "População total": "124 mi"
+    },
+    {
+      "Rank": 2,
+      "País": "Alemanha",
+      "Pacientes estimados": 1995249,
+      "% População": "2,34%",
+      "População total": "84 mi"
+    },
+    {
+      "Rank": 3,
+      "País": "Itália",
+      "Pacientes estimados": 1427946,
+      "% População": "2,39%",
+      "População total": "59,8 mi"
+    },
+    {
+      "Rank": 4,
+      "País": "Grécia",
+      "Pacientes estimados": 220000,
+      "% População": "2,09%",
+      "População total": "10,5 mi"
+    },
+    {
+      "Rank": 5,
+      "País": "Mônaco",
+      "Pacientes estimados": 750,
+      "% População": "1,94%",
+      "População total": "38 mil"
+    },
+    {
+      "Rank": 6,
+      "País": "Portugal",
+      "Pacientes estimados": 203138,
+      "% População": "1,92%",
+      "População total": "10,6 mi"
+    },
+    {
+      "Rank": 7,
+      "País": "Finlândia",
+      "Pacientes estimados": 96000,
+      "% População": "1,75%",
+      "População total": "5,5 mi"
+    },
+    {
+      "Rank": 8,
+      "País": "Canadá",
+      "Pacientes estimados": 631350,
+      "% População": "1,69%",
+      "População total": "39 mi"
+    },
+    {
+      "Rank": 9,
+      "País": "Suécia",
+      "Pacientes estimados": 185343,
+      "% População": "1,79%",
+      "População total": "10,3 mi"
+    },
+    {
+      "Rank": 10,
+      "País": "Bélgica",
+      "Pacientes estimados": 198767,
+      "% População": "1,73%",
+      "População total": "11,5 mi"
+    },
+    {
+      "Rank": 11,
+      "País": "Austrália",
+      "Pacientes estimados": 440000,
+      "% População": "1,68%",
+      "População total": "26 mi"
+    },
+    {
+      "Rank": 12,
+      "País": "Letônia",
+      "Pacientes estimados": 31569,
+      "% População": "1,69%",
+      "População total": "1,87 mi"
+    },
+    {
+      "Rank": 13,
+      "País": "Malta",
+      "Pacientes estimados": 7302,
+      "% População": "1,65%",
+      "População total": "442 mil"
+    },
+    {
+      "Rank": 14,
+      "País": "Lituânia",
+      "Pacientes estimados": 44998,
+      "% População": "1,64%",
+      "População total": "2,73 mi"
+    },
+    {
+      "Rank": 15,
+      "País": "Holanda",
+      "Pacientes estimados": 280000,
+      "% População": "1,63%",
+      "População total": "17,6 mi"
+    },
+    {
+      "Rank": 16,
+      "País": "Áustria",
+      "Pacientes estimados": 143898,
+      "% População": "1,60%",
+      "População total": "9 mi"
+    },
+    {
+      "Rank": 17,
+      "País": "Eslovênia",
+      "Pacientes estimados": 33191,
+      "% População": "1,60%",
+      "População total": "2,07 mi"
+    },
+    {
+      "Rank": 18,
+      "País": "Suíça",
+      "Pacientes estimados": 141610,
+      "% População": "1,59%",
+      "População total": "8,9 mi"
+    },
+    {
+      "Rank": 19,
+      "País": "Nova Zelândia",
+      "Pacientes estimados": 81000,
+      "% População": "1,58%",
+      "População total": "5,1 mi"
+    },
+    {
+      "Rank": 20,
+      "País": "Espanha",
+      "Pacientes estimados": 713870,
+      "% População": "1,57%",
+      "População total": "47,3 mi"
+    },
+    {
+      "Rank": 21,
+      "País": "Noruega",
+      "Pacientes estimados": 86000,
+      "% População": "1,57%",
+      "População total": "5,4 mi"
+    },
+    {
+      "Rank": 22,
+      "País": "Reino Unido",
+      "Pacientes estimados": 906467,
+      "% População": "1,50%",
+      "População total": "68 mi"
+    },
+    {
+      "Rank": 23,
+      "País": "Estados Unidos",
+      "Pacientes estimados": 4876579,
+      "% População": "1,47%",
+      "População total": "333 mi"
+    },
+    {
+      "Rank": 24,
+      "País": "República Tcheca",
+      "Pacientes estimados": 150649,
+      "% População": "1,42%",
+      "População total": "10,6 mi"
+    },
+    {
+      "Rank": 25,
+      "País": "França",
+      "Pacientes estimados": 924607,
+      "% População": "1,39%",
+      "População total": "68 mi"
+    },
+    {
+      "Rank": 26,
+      "País": "Coreia do Sul",
+      "Pacientes estimados": 697045,
+      "% População": "1,35%",
+      "População total": "51 mi"
+    },
+    {
+      "Rank": 27,
+      "País": "Polônia",
+      "Pacientes estimados": 501492,
+      "% População": "1,31%",
+      "População total": "38 mi"
+    },
+    {
+      "Rank": 28,
+      "País": "Bósnia e Herzegovina",
+      "Pacientes estimados": 41105,
+      "% População": "1,24%",
+      "População total": "3,3 mi"
+    },
+    {
+      "Rank": 29,
+      "País": "Ucrânia",
+      "Pacientes estimados": 527238,
+      "% População": "1,22%",
+      "População total": "43 mi"
+    },
+    {
+      "Rank": 30,
+      "País": "Geórgia",
+      "Pacientes estimados": 43615,
+      "% População": "1,21%",
+      "População total": "3,7 mi"
+    },
+    {
+      "Rank": 31,
+      "País": "China",
+      "Pacientes estimados": 16990827,
+      "% População": "1,19%",
+      "População total": "1,42 bi"
+    },
+    {
+      "Rank": 32,
+      "País": "Uruguai",
+      "Pacientes estimados": 39146,
+      "% População": "1,15%",
+      "População total": "3,4 mi"
+    },
+    {
+      "Rank": 33,
+      "País": "Rússia",
+      "Pacientes estimados": 1605863,
+      "% População": "1,11%",
+      "População total": "145 mi"
+    },
+    {
+      "Rank": 34,
+      "País": "Irlanda",
+      "Pacientes estimados": 53859,
+      "% População": "1,09%",
+      "População total": "4,9 mi"
+    },
+    {
+      "Rank": 35,
+      "País": "Moldávia",
+      "Pacientes estimados": 39086,
+      "% População": "1,08%",
+      "População total": "3,6 mi"
+    },
+    {
+      "Rank": 36,
+      "País": "Tailândia",
+      "Pacientes estimados": 659437,
+      "% População": "0,99%",
+      "População total": "70 mi"
+    },
+    {
+      "Rank": 37,
+      "País": "Líbano",
+      "Pacientes estimados": 54346,
+      "% População": "0,98%",
+      "População total": "5,5 mi"
+    },
+    {
+      "Rank": 38,
+      "País": "Maurício",
+      "Pacientes estimados": 11136,
+      "% População": "0,88%",
+      "População total": "1,27 mi"
+    },
+    {
+      "Rank": 39,
+      "País": "Chile",
+      "Pacientes estimados": 159047,
+      "% População": "0,85%",
+      "População total": "19 mi"
+    },
+    {
+      "Rank": 40,
+      "País": "Brasil",
+      "Pacientes estimados": 1825795,
+      "% População": "0,83%",
+      "População total": "220 mi"
+    }
+  ],
+  "GEMINI": [
+    {
+      "Pos.": 1,
+      "País": "Japão",
+      "Quantidade de Pacientes (Est.)": 3771775,
+      "Prevalência (%)": 0.03079,
+      "População Total (Est.)": 122500000
+    },
+    {
+      "Pos.": 2,
+      "País": "Itália",
+      "Quantidade de Pacientes (Est.)": 1426410,
+      "Prevalência (%)": 0.0243,
+      "População Total (Est.)": 58700000
+    },
+    {
+      "Pos.": 3,
+      "País": "Grécia",
+      "Quantidade de Pacientes (Est.)": 245140,
+      "Prevalência (%)": 0.0238,
+      "População Total (Est.)": 10300000
+    },
+    {
+      "Pos.": 4,
+      "País": "Portugal",
+      "Quantidade de Pacientes (Est.)": 238160,
+      "Prevalência (%)": 0.0229,
+      "População Total (Est.)": 10400000
+    },
+    {
+      "Pos.": 5,
+      "País": "Alemanha",
+      "Quantidade de Pacientes (Est.)": 1830400,
+      "Prevalência (%)": 0.022,
+      "População Total (Est.)": 83200000
+    },
+    {
+      "Pos.": 6,
+      "País": "França",
+      "Quantidade de Pacientes (Est.)": 1420710,
+      "Prevalência (%)": 0.0213,
+      "População Total (Est.)": 66700000
+    },
+    {
+      "Pos.": 7,
+      "País": "Finlândia",
+      "Quantidade de Pacientes (Est.)": 117040,
+      "Prevalência (%)": 0.0209,
+      "População Total (Est.)": 5600000
+    },
+    {
+      "Pos.": 8,
+      "País": "Espanha",
+      "Quantidade de Pacientes (Est.)": 981949.9999999999,
+      "Prevalência (%)": 0.0205,
+      "População Total (Est.)": 47900000
+    },
+    {
+      "Pos.": 9,
+      "País": "Mônaco",
+      "Quantidade de Pacientes (Est.)": 731.1600000000001,
+      "Prevalência (%)": 0.02031,
+      "População Total (Est.)": 36000
+    },
+    {
+      "Pos.": 10,
+      "País": "Estônia",
+      "Quantidade de Pacientes (Est.)": 25870,
+      "Prevalência (%)": 0.0199,
+      "População Total (Est.)": 1300000
+    },
+    {
+      "Pos.": 11,
+      "País": "Eslovênia",
+      "Quantidade de Pacientes (Est.)": 41223,
+      "Prevalência (%)": 0.01963,
+      "População Total (Est.)": 2100000
+    },
+    {
+      "Pos.": 12,
+      "País": "Letônia",
+      "Quantidade de Pacientes (Est.)": 35100,
+      "Prevalência (%)": 0.0195,
+      "População Total (Est.)": 1800000
+    },
+    {
+      "Pos.": 13,
+      "País": "Porto Rico",
+      "Quantidade de Pacientes (Est.)": 62080,
+      "Prevalência (%)": 0.0194,
+      "População Total (Est.)": 3200000
+    },
+    {
+      "Pos.": 14,
+      "País": "Croácia",
+      "Quantidade de Pacientes (Est.)": 72960,
+      "Prevalência (%)": 0.0192,
+      "População Total (Est.)": 3800000
+    },
+    {
+      "Pos.": 15,
+      "País": "Áustria",
+      "Quantidade de Pacientes (Est.)": 171990,
+      "Prevalência (%)": 0.0189,
+      "População Total (Est.)": 9100000
+    },
+    {
+      "Pos.": 16,
+      "País": "Suécia",
+      "Quantidade de Pacientes (Est.)": 202230,
+      "Prevalência (%)": 0.0189,
+      "População Total (Est.)": 10700000
+    },
+    {
+      "Pos.": 17,
+      "País": "Bélgica",
+      "Quantidade de Pacientes (Est.)": 223020,
+      "Prevalência (%)": 0.0189,
+      "População Total (Est.)": 11800000
+    },
+    {
+      "Pos.": 18,
+      "País": "Suíça",
+      "Quantidade de Pacientes (Est.)": 164650,
+      "Prevalência (%)": 0.0185,
+      "População Total (Est.)": 8900000
+    },
+    {
+      "Pos.": 19,
+      "País": "Dinamarca",
+      "Quantidade de Pacientes (Est.)": 109200,
+      "Prevalência (%)": 0.0182,
+      "População Total (Est.)": 6000000
+    },
+    {
+      "Pos.": 20,
+      "País": "Reino Unido",
+      "Quantidade de Pacientes (Est.)": 1210400,
+      "Prevalência (%)": 0.0178,
+      "População Total (Est.)": 68000000
+    },
+    {
+      "Pos.": 21,
+      "País": "Países Baixos",
+      "Quantidade de Pacientes (Est.)": 315000.0000000001,
+      "Prevalência (%)": 0.0175,
+      "População Total (Est.)": 18000000
+    },
+    {
+      "Pos.": 22,
+      "País": "Lituânia",
+      "Quantidade de Pacientes (Est.)": 48720,
+      "Prevalência (%)": 0.0174,
+      "População Total (Est.)": 2800000
+    },
+    {
+      "Pos.": 23,
+      "País": "República Tcheca",
+      "Quantidade de Pacientes (Est.)": 187480,
+      "Prevalência (%)": 0.0172,
+      "População Total (Est.)": 10900000
+    },
+    {
+      "Pos.": 24,
+      "País": "Hungria",
+      "Quantidade de Pacientes (Est.)": 164160,
+      "Prevalência (%)": 0.0171,
+      "População Total (Est.)": 9600000
+    },
+    {
+      "Pos.": 25,
+      "País": "Noruega",
+      "Quantidade de Pacientes (Est.)": 92949.99999999999,
+      "Prevalência (%)": 0.0169,
+      "População Total (Est.)": 5500000
+    },
+    {
+      "Pos.": 26,
+      "País": "Bulgária",
+      "Quantidade de Pacientes (Est.)": 107520,
+      "Prevalência (%)": 0.0168,
+      "População Total (Est.)": 6400000
+    },
+    {
+      "Pos.": 27,
+      "País": "Sérvia",
+      "Quantidade de Pacientes (Est.)": 110220,
+      "Prevalência (%)": 0.0167,
+      "População Total (Est.)": 6600000
+    },
+    {
+      "Pos.": 28,
+      "País": "Polônia",
+      "Quantidade de Pacientes (Est.)": 605550,
+      "Prevalência (%)": 0.0165,
+      "População Total (Est.)": 36700000
+    },
+    {
+      "Pos.": 29,
+      "País": "Romênia",
+      "Quantidade de Pacientes (Est.)": 307800.0000000001,
+      "Prevalência (%)": 0.0162,
+      "População Total (Est.)": 19000000
+    },
+    {
+      "Pos.": 30,
+      "País": "Eslováquia",
+      "Quantidade de Pacientes (Est.)": 86400,
+      "Prevalência (%)": 0.016,
+      "População Total (Est.)": 5400000
+    },
+    {
+      "Pos.": 31,
+      "País": "Canadá",
+      "Quantidade de Pacientes (Est.)": 624100.0000000001,
+      "Prevalência (%)": 0.0158,
+      "População Total (Est.)": 39500000
+    },
+    {
+      "Pos.": 32,
+      "País": "Estados Unidos",
+      "Quantidade de Pacientes (Est.)": 5270000,
+      "Prevalência (%)": 0.0155,
+      "População Total (Est.)": 340000000
+    },
+    {
+      "Pos.": 33,
+      "País": "Uruguai",
+      "Quantidade de Pacientes (Est.)": 51680,
+      "Prevalência (%)": 0.0152,
+      "População Total (Est.)": 3400000
+    },
+    {
+      "Pos.": 34,
+      "País": "Malta",
+      "Quantidade de Pacientes (Est.)": 8154,
+      "Prevalência (%)": 0.0151,
+      "População Total (Est.)": 540000
+    },
+    {
+      "Pos.": 35,
+      "País": "Chipre",
+      "Quantidade de Pacientes (Est.)": 18750,
+      "Prevalência (%)": 0.015,
+      "População Total (Est.)": 1250000
+    },
+    {
+      "Pos.": 36,
+      "País": "Bósnia e Herzegovina",
+      "Quantidade de Pacientes (Est.)": 47360,
+      "Prevalência (%)": 0.0148,
+      "População Total (Est.)": 3200000
+    },
+    {
+      "Pos.": 37,
+      "País": "Luxemburgo",
+      "Quantidade de Pacientes (Est.)": 9570,
+      "Prevalência (%)": 0.0145,
+      "População Total (Est.)": 660000
+    },
+    {
+      "Pos.": 38,
+      "País": "Coreia do Sul",
+      "Quantidade de Pacientes (Est.)": 734140,
+      "Prevalência (%)": 0.0142,
+      "População Total (Est.)": 51700000
+    },
+    {
+      "Pos.": 39,
+      "País": "Islândia",
+      "Quantidade de Pacientes (Est.)": 5459.999999999999,
+      "Prevalência (%)": 0.014,
+      "População Total (Est.)": 390000
+    },
+    {
+      "Pos.": 40,
+      "País": "Nova Zelândia",
+      "Quantidade de Pacientes (Est.)": 73140,
+      "Prevalência (%)": 0.0138,
+      "População Total (Est.)": 5300000
+    },
+    {
+      "Pos.": 41,
+      "País": "Austrália",
+      "Quantidade de Pacientes (Est.)": 361800.0000000001,
+      "Prevalência (%)": 0.0135,
+      "População Total (Est.)": 26800000
+    },
+    {
+      "Pos.": 42,
+      "País": "Irlanda",
+      "Quantidade de Pacientes (Est.)": 68640,
+      "Prevalência (%)": 0.0132,
+      "População Total (Est.)": 5200000
+    },
+    {
+      "Pos.": 43,
+      "País": "Montenegro",
+      "Quantidade de Pacientes (Est.)": 8060.000000000001,
+      "Prevalência (%)": 0.013,
+      "População Total (Est.)": 620000
+    },
+    {
+      "Pos.": 44,
+      "País": "Cuba",
+      "Quantidade de Pacientes (Est.)": 142080,
+      "Prevalência (%)": 0.0128,
+      "População Total (Est.)": 11100000
+    },
+    {
+      "Pos.": 45,
+      "País": "Macedônia do Norte",
+      "Quantidade de Pacientes (Est.)": 22500,
+      "Prevalência (%)": 0.0125,
+      "População Total (Est.)": 1800000
+    },
+    {
+      "Pos.": 46,
+      "País": "Bielorrússia",
+      "Quantidade de Pacientes (Est.)": 111020,
+      "Prevalência (%)": 0.0122,
+      "População Total (Est.)": 9100000
+    },
+    {
+      "Pos.": 47,
+      "País": "Ucrânia",
+      "Quantidade de Pacientes (Est.)": 444000,
+      "Prevalência (%)": 0.012,
+      "População Total (Est.)": 37000000
+    },
+    {
+      "Pos.": 48,
+      "País": "Rússia",
+      "Quantidade de Pacientes (Est.)": 1699200,
+      "Prevalência (%)": 0.0118,
+      "População Total (Est.)": 144000000
+    },
+    {
+      "Pos.": 49,
+      "País": "Geórgia",
+      "Quantidade de Pacientes (Est.)": 42550,
+      "Prevalência (%)": 0.0115,
+      "População Total (Est.)": 3700000
+    },
+    {
+      "Pos.": 50,
+      "País": "Armênia",
+      "Quantidade de Pacientes (Est.)": 31360,
+      "Prevalência (%)": 0.0112,
+      "População Total (Est.)": 2800000
+    },
+    {
+      "Pos.": 51,
+      "País": "Chile",
+      "Quantidade de Pacientes (Est.)": 218900,
+      "Prevalência (%)": 0.011,
+      "População Total (Est.)": 19900000
+    },
+    {
+      "Pos.": 52,
+      "País": "Argentina",
+      "Quantidade de Pacientes (Est.)": 503280,
+      "Prevalência (%)": 0.0108,
+      "População Total (Est.)": 46600000
+    },
+    {
+      "Pos.": 53,
+      "País": "Albânia",
+      "Quantidade de Pacientes (Est.)": 29400,
+      "Prevalência (%)": 0.0105,
+      "População Total (Est.)": 2800000
+    },
+    {
+      "Pos.": 54,
+      "País": "Costa Rica",
+      "Quantidade de Pacientes (Est.)": 53560,
+      "Prevalência (%)": 0.0103,
+      "População Total (Est.)": 5200000
+    },
+    {
+      "Pos.": 55,
+      "País": "Cingapura",
+      "Quantidade de Pacientes (Est.)": 60600,
+      "Prevalência (%)": 0.0101,
+      "População Total (Est.)": 6000000
+    },
+    {
+      "Pos.": 56,
+      "País": "Tailândia",
+      "Quantidade de Pacientes (Est.)": 708839.9999999999,
+      "Prevalência (%)": 0.009899999999999999,
+      "População Total (Est.)": 71600000
+    },
+    {
+      "Pos.": 57,
+      "País": "China",
+      "Quantidade de Pacientes (Est.)": 13808200,
+      "Prevalência (%)": 0.0098,
+      "População Total (Est.)": 1409000000
+    },
+    {
+      "Pos.": 58,
+      "País": "Brasil",
+      "Quantidade de Pacientes (Est.)": 2061500,
+      "Prevalência (%)": 0.0095,
+      "População Total (Est.)": 217000000
+    },
+    {
+      "Pos.": 59,
+      "País": "Sri Lanka",
+      "Quantidade de Pacientes (Est.)": 202400,
+      "Prevalência (%)": 0.0092,
+      "População Total (Est.)": 22000000
+    },
+    {
+      "Pos.": 60,
+      "País": "Maurício",
+      "Quantidade de Pacientes (Est.)": 11700,
+      "Prevalência (%)": 0.009000000000000001,
+      "População Total (Est.)": 1300000
+    },
+    {
+      "Pos.": 61,
+      "País": "Moldávia",
+      "Quantidade de Pacientes (Est.)": 22000,
+      "Prevalência (%)": 0.0088,
+      "População Total (Est.)": 2500000
+    },
+    {
+      "Pos.": 62,
+      "País": "Trinidad e Tobago",
+      "Quantidade de Pacientes (Est.)": 12900,
+      "Prevalência (%)": 0.0086,
+      "População Total (Est.)": 1500000
+    },
+    {
+      "Pos.": 63,
+      "País": "Tunísia",
+      "Quantidade de Pacientes (Est.)": 106250,
+      "Prevalência (%)": 0.0085,
+      "População Total (Est.)": 12500000
+    },
+    {
+      "Pos.": 64,
+      "País": "Colômbia",
+      "Quantidade de Pacientes (Est.)": 426399.9999999999,
+      "Prevalência (%)": 0.008199999999999999,
+      "População Total (Est.)": 52000000
+    },
+    {
+      "Pos.": 65,
+      "País": "Líbano",
+      "Quantidade de Pacientes (Est.)": 42400,
+      "Prevalência (%)": 0.008,
+      "População Total (Est.)": 5300000
+    },
+    {
+      "Pos.": 66,
+      "País": "Turquia",
+      "Quantidade de Pacientes (Est.)": 670800,
+      "Prevalência (%)": 0.007800000000000001,
+      "População Total (Est.)": 86000000
+    },
+    {
+      "Pos.": 67,
+      "País": "Panamá",
+      "Quantidade de Pacientes (Est.)": 33750,
+      "Prevalência (%)": 0.0075,
+      "População Total (Est.)": 4500000
+    },
+    {
+      "Pos.": 68,
+      "País": "México",
+      "Quantidade de Pacientes (Est.)": 954600,
+      "Prevalência (%)": 0.0074,
+      "População Total (Est.)": 129000000
+    },
+    {
+      "Pos.": 69,
+      "País": "Peru",
+      "Quantidade de Pacientes (Est.)": 244800,
+      "Prevalência (%)": 0.0072,
+      "População Total (Est.)": 34000000
+    },
+    {
+      "Pos.": 70,
+      "País": "Seychelles",
+      "Quantidade de Pacientes (Est.)": 699.9999999999999,
+      "Prevalência (%)": 0.006999999999999999,
+      "População Total (Est.)": 100000
+    },
+    {
+      "Pos.": 71,
+      "País": "Cazaquistão",
+      "Quantidade de Pacientes (Est.)": 136000,
+      "Prevalência (%)": 0.0068,
+      "População Total (Est.)": 20000000
+    },
+    {
+      "Pos.": 72,
+      "País": "Irã",
+      "Quantidade de Pacientes (Est.)": 596300,
+      "Prevalência (%)": 0.0067,
+      "População Total (Est.)": 89000000
+    },
+    {
+      "Pos.": 73,
+      "País": "Vietnã",
+      "Quantidade de Pacientes (Est.)": 650000,
+      "Prevalência (%)": 0.006500000000000001,
+      "População Total (Est.)": 100000000
+    },
+    {
+      "Pos.": 74,
+      "País": "El Salvador",
+      "Quantidade de Pacientes (Est.)": 39690,
+      "Prevalência (%)": 0.0063,
+      "População Total (Est.)": 6300000
+    },
+    {
+      "Pos.": 75,
+      "País": "Equador",
+      "Quantidade de Pacientes (Est.)": 113460,
+      "Prevalência (%)": 0.0062,
+      "População Total (Est.)": 18300000
+    },
+    {
+      "Pos.": 76,
+      "País": "Malásia",
+      "Quantidade de Pacientes (Est.)": 207000,
+      "Prevalência (%)": 0.006,
+      "População Total (Est.)": 34500000
+    },
+    {
+      "Pos.": 77,
+      "País": "República Dominicana",
+      "Quantidade de Pacientes (Est.)": 66120,
+      "Prevalência (%)": 0.0058,
+      "População Total (Est.)": 11400000
+    },
+    {
+      "Pos.": 78,
+      "País": "Jamaica",
+      "Quantidade de Pacientes (Est.)": 15680,
+      "Prevalência (%)": 0.005600000000000001,
+      "População Total (Est.)": 2800000
+    },
+    {
+      "Pos.": 79,
+      "País": "Marrocos",
+      "Quantidade de Pacientes (Est.)": 209000,
+      "Prevalência (%)": 0.005500000000000001,
+      "População Total (Est.)": 38000000
+    },
+    {
+      "Pos.": 80,
+      "País": "Argélia",
+      "Quantidade de Pacientes (Est.)": 248400,
+      "Prevalência (%)": 0.0054,
+      "População Total (Est.)": 46000000
+    },
+    {
+      "Pos.": 81,
+      "País": "Venezuela",
+      "Quantidade de Pacientes (Est.)": 150800,
+      "Prevalência (%)": 0.0052,
+      "População Total (Est.)": 29000000
+    },
+    {
+      "Pos.": 82,
+      "País": "Arábia Saudita",
+      "Quantidade de Pacientes (Est.)": 180000,
+      "Prevalência (%)": 0.005,
+      "População Total (Est.)": 36000000
+    },
+    {
+      "Pos.": 83,
+      "País": "Bolívia",
+      "Quantidade de Pacientes (Est.)": 59999.99999999999,
+      "Prevalência (%)": 0.0048,
+      "População Total (Est.)": 12500000
+    },
+    {
+      "Pos.": 84,
+      "País": "Paraguai",
+      "Quantidade de Pacientes (Est.)": 31960,
+      "Prevalência (%)": 0.004699999999999999,
+      "População Total (Est.)": 6800000
+    },
+    {
+      "Pos.": 85,
+      "País": "Nicarágua",
+      "Quantidade de Pacientes (Est.)": 32200,
+      "Prevalência (%)": 0.0046,
+      "População Total (Est.)": 7000000
+    },
+    {
+      "Pos.": 86,
+      "País": "Honduras",
+      "Quantidade de Pacientes (Est.)": 48150.00000000001,
+      "Prevalência (%)": 0.004500000000000001,
+      "População Total (Est.)": 10700000
+    },
+    {
+      "Pos.": 87,
+      "País": "Indonésia",
+      "Quantidade de Pacientes (Est.)": 1232000,
+      "Prevalência (%)": 0.0044,
+      "População Total (Est.)": 280000000
+    },
+    {
+      "Pos.": 88,
+      "País": "Uzbequistão",
+      "Quantidade de Pacientes (Est.)": 154800,
+      "Prevalência (%)": 0.0043,
+      "População Total (Est.)": 36000000
+    },
+    {
+      "Pos.": 89,
+      "País": "Filipinas",
+      "Quantidade de Pacientes (Est.)": 491399.9999999999,
+      "Prevalência (%)": 0.0042,
+      "População Total (Est.)": 117000000
+    },
+    {
+      "Pos.": 90,
+      "País": "Egito",
+      "Quantidade de Pacientes (Est.)": 448000,
+      "Prevalência (%)": 0.004,
+      "População Total (Est.)": 112000000
+    },
+    {
+      "Pos.": 91,
+      "País": "Índia",
+      "Quantidade de Pacientes (Est.)": 5434000,
+      "Prevalência (%)": 0.0038,
+      "População Total (Est.)": 1430000000
+    },
+    {
+      "Pos.": 92,
+      "País": "África do Sul",
+      "Quantidade de Pacientes (Est.)": 219600,
+      "Prevalência (%)": 0.0036,
+      "População Total (Est.)": 61000000
+    },
+    {
+      "Pos.": 93,
+      "País": "Paquistão",
+      "Quantidade de Pacientes (Est.)": 833000.0000000001,
+      "Prevalência (%)": 0.0034,
+      "População Total (Est.)": 245000000
+    },
+    {
+      "Pos.": 94,
+      "País": "Camboja",
+      "Quantidade de Pacientes (Est.)": 54400,
+      "Prevalência (%)": 0.0032,
+      "População Total (Est.)": 17000000
+    },
+    {
+      "Pos.": 95,
+      "País": "Mianmar",
+      "Quantidade de Pacientes (Est.)": 170500,
+      "Prevalência (%)": 0.0031,
+      "População Total (Est.)": 55000000
+    },
+    {
+      "Pos.": 96,
+      "País": "Bangladesh",
+      "Quantidade de Pacientes (Est.)": 519000,
+      "Prevalência (%)": 0.003,
+      "População Total (Est.)": 173000000
+    },
+    {
+      "Pos.": 97,
+      "País": "Guatemala",
+      "Quantidade de Pacientes (Est.)": 50400.00000000001,
+      "Prevalência (%)": 0.0028,
+      "População Total (Est.)": 18000000
+    },
+    {
+      "Pos.": 98,
+      "País": "Iraque",
+      "Quantidade de Pacientes (Est.)": 119600,
+      "Prevalência (%)": 0.0026,
+      "População Total (Est.)": 46000000
+    },
+    {
+      "Pos.": 99,
+      "País": "Quênia",
+      "Quantidade de Pacientes (Est.)": 134400,
+      "Prevalência (%)": 0.0024,
+      "População Total (Est.)": 56000000
+    },
+    {
+      "Pos.": 100,
+      "País": "Nigéria",
+      "Quantidade de Pacientes (Est.)": 495000.0000000001,
+      "Prevalência (%)": 0.0022,
+      "População Total (Est.)": 225000000
+    }
+  ]
+}

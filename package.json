@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ueidesantos/pos-ia#readme",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.22.0"
+    "@tensorflow/tfjs": "^4.22.0",
+    "xlsx": "^0.18.5"
   }
 }
