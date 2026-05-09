@@ -235,6 +235,19 @@
         <div class="filter-section">
             <h5>Buscar País</h5>
             <input type="text" id="searchInput" class="form-control search-input" placeholder="Digite o nome do país...">
+            <hr>
+            <h5 class="mb-2">Fontes em XLSX</h5>
+            <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-sm btn-outline-info" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__DEEPSEEK.xlsx" download>
+                    Baixar DeepSeek
+                </a>
+                <a class="btn btn-sm btn-outline-success" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__CHATGPT.xlsx" download>
+                    Baixar ChatGPT
+                </a>
+                <a class="btn btn-sm btn-outline-danger" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026_GEMINI.xlsx" download>
+                    Baixar Gemini
+                </a>
+            </div>
         </div>
 
         <div class="comparison-container">
@@ -268,7 +281,7 @@
         // Carregar dados
         async function loadData() {
             try {
-                const response = await fetch('data/ias-comparison.json');
+                const response = await fetch('Data/ias-comparison.json');
                 allData = await response.json();
                 renderComparison();
                 updateStats();
