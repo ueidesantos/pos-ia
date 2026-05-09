@@ -22,8 +22,8 @@ const WEIGHT_VECTOR = [
 ];
 
 const trainingHistory = { loss: [], acc: [] };
-let showTrainingPanel = false;
-const TRAINING_EPOCHS = 80;
+let showTrainingPanel = true;
+const TRAINING_EPOCHS = 150;
 
 function renderTrainingCharts() {
     if (!trainingHistory.acc.length && !trainingHistory.loss.length) return;
@@ -237,14 +237,14 @@ function predict(model, formData) {
     };
 }
 
+setTrainingPanelVisibility(true);
+
 const form = document.getElementById('healthForm');
 const resultBox = document.getElementById('resultBox');
 const resultadoTitulo = document.getElementById('resultadoTitulo');
 const resultadoTexto = document.getElementById('resultadoTexto');
 const fatoresLista = document.getElementById('fatoresLista');
 const trainingPanelToggle = document.getElementById('trainingPanelToggle');
-
-setTrainingPanelVisibility(false);
 
 if (trainingPanelToggle) {
     trainingPanelToggle.addEventListener('click', function () {
