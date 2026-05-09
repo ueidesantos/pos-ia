@@ -22,7 +22,7 @@ const WEIGHT_VECTOR = [
 ];
 
 const trainingHistory = { loss: [], acc: [] };
-let showTrainingPanel = true;
+let showTrainingPanel = false;
 const TRAINING_EPOCHS = 150;
 
 function renderTrainingCharts() {
