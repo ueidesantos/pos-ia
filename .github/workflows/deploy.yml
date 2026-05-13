@@ -27,7 +27,7 @@ jobs:
       - name: Include XLSX files in published folder
         run: |
           mkdir -p "01-LLM/src/Data"
-          cp "01-LLM/Miscellaneous/Fontes/Cross-Country Alzheimer Prevalence Ranking"/*.xlsx "01-LLM/src/Data/"
+          cp "01-LLM/src/Miscellaneous/Fontes/Cross-Country Alzheimer Prevalence Ranking"/*.xlsx "01-LLM/src/Data/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
