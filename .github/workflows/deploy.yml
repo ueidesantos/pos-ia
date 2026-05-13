@@ -22,9 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Include XLSX files in published folder
+        shell: bash
         run: |
           mkdir -p "01-LLM/src/Data"
           cp "01-LLM/src/Miscellaneous/Fontes/Cross-Country Alzheimer Prevalence Ranking"/*.xlsx "01-LLM/src/Data/"
