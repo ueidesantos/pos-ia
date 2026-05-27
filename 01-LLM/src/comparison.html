@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comparação de Rankings - Alzheimer por IA</title>
+    <meta name="theme-color" content="#f8f5ee" />
+    <title>neurocare-ai-lab — Comparação de Rankings</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8240BCHML"></script>
     <script>
@@ -13,280 +14,140 @@
         gtag('js', new Date());
         gtag('config', 'G-G8240BCHML');
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <style>
-        body {
-            background: #f5f7fb;
-        }
-
-        .main {
-            max-width: 1400px;
-            margin: 40px auto;
-            padding: 24px;
-        }
-
-        .main > h2 {
-            font-size: clamp(1.2rem, 3vw, 1.8rem);
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #6c757d;
-            font-size: 0.95rem;
-            margin-bottom: 30px;
-        }
-
-        .comparison-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-            gap: 24px;
-            margin-bottom: 40px;
-        }
-
-        .ia-column {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-            overflow: hidden;
-            border: 2px solid transparent;
-        }
-
-        .ia-column.deepseek {
-            border-top: 4px solid #00a8e8;
-        }
-
-        .ia-column.chatgpt {
-            border-top: 4px solid #10a37f;
-        }
-
-        .ia-column.gemini {
-            border-top: 4px solid #db4437;
-        }
-
-        .ia-header {
-            padding: 16px 20px;
-            background: linear-gradient(135deg, #f5f7fb 0%, #e9ecf1 100%);
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .ia-header h4 {
-            margin: 0;
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-
-        .ia-header .badge {
-            font-size: 0.75rem;
-            padding: 4px 8px;
-        }
-
-        .ranking-list {
-            max-height: 600px;
-            overflow-y: auto;
-        }
-
-        .ranking-item {
-            display: flex;
-            align-items: center;
-            padding: 12px 16px;
-            border-bottom: 1px solid #f0f0f0;
-            transition: background-color 0.2s;
-        }
-
-        .ranking-item:hover {
-            background-color: #fafbfc;
-        }
-
-        .rank-number {
-            font-weight: 700;
-            min-width: 35px;
-            text-align: center;
-            font-size: 0.95rem;
-        }
-
-        .rank-number.top-5 {
-            color: #ffc107;
-        }
-
-        .rank-number.top-10 {
-            color: #ff9800;
-        }
-
-        .country-info {
-            flex: 1;
-            margin-left: 12px;
-        }
-
-        .country-name {
-            font-weight: 500;
-            font-size: 0.95rem;
-            margin-bottom: 3px;
-        }
-
-        .country-rate {
-            font-size: 0.8rem;
-            color: #8b8b8b;
-        }
-
-        .consistency-badge {
-            display: inline-block;
-            padding: 3px 8px;
-            border-radius: 12px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            margin-left: 8px;
-        }
-
-        .consistency-high {
-            background-color: #d4edda;
-            color: #155724;
-        }
-
-        .consistency-medium {
-            background-color: #fff3cd;
-            color: #856404;
-        }
-
-        .consistency-low {
-            background-color: #f8d7da;
-            color: #721c24;
-        }
-
-        .filter-section {
-            background: white;
-            padding: 20px;
-            border-radius: 16px;
-            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-            margin-bottom: 30px;
-        }
-
-        .filter-section h5 {
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .search-input {
-            border-radius: 8px;
-            border: 1px solid #ddd;
-            padding: 10px 15px;
-            font-size: 0.95rem;
-        }
-
-        .search-input:focus {
-            border-color: #00a8e8;
-            box-shadow: 0 0 0 0.2rem rgba(0, 168, 232, 0.25);
-        }
-
-        .back-button {
-            margin-bottom: 20px;
-            display: inline-block;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-bottom: 30px;
-        }
-
-        .stat-card {
-            background: white;
-            padding: 16px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            text-align: center;
-        }
-
-        .stat-value {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #00a8e8;
-        }
-
-        .stat-label {
-            font-size: 0.85rem;
-            color: #6c757d;
-            margin-top: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="main">
-        <a href="index.html" class="btn btn-outline-secondary btn-sm back-button">
-            <i class="bi bi-arrow-left"></i> Voltar
-        </a>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="brand" href="index.html" aria-label="neurocare-ai-lab — início">
+                <span class="brand-mark" aria-hidden="true"><i class="bi bi-braces-asterisk"></i></span>
+                <span class="brand-name">neurocare<span>-ai-lab</span></span>
+            </a>
 
-        <h2>Análise Comparativa: Ranking de Alzheimer por IA</h2>
-        <p class="subtitle">Comparação entre DeepSeek, ChatGPT e Gemini - Incidência por 100 mil habitantes</p>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="index.html#classificador">Classificar</a>
+                <a href="index.html#regras">Regras</a>
+                <a href="index.html#console">Console</a>
+                <a href="comparison.html">Rankings</a>
+            </nav>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-value" id="deepseekCount">-</div>
-                <div class="stat-label">DeepSeek (Países)</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="chatgptCount">-</div>
-                <div class="stat-label">ChatGPT (Países)</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="geminiCount">-</div>
-                <div class="stat-label">Gemini (Países)</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="agreementRate">-</div>
-                <div class="stat-label">Concordância Top 10</div>
-            </div>
+            <a href="index.html#classificador" class="btn btn-outline-dark btn-sm header-action">
+                <i class="bi bi-clipboard2-pulse"></i>
+                <span>Classificar</span>
+            </a>
         </div>
+    </header>
 
-        <div class="filter-section">
-            <h5>Buscar País</h5>
-            <input type="text" id="searchInput" class="form-control search-input" placeholder="Digite o nome do país...">
-            <hr>
-            <h5 class="mb-2">Fontes em XLSX</h5>
-            <div class="d-flex flex-wrap gap-2">
-                <a class="btn btn-sm btn-outline-info" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__DEEPSEEK.xlsx" download>
-                    Baixar DeepSeek
+    <main>
+        <section class="comparison-hero bg-grid" aria-labelledby="comparison-title">
+            <div class="shell">
+                <a href="index.html" class="back-link">
+                    <i class="bi bi-arrow-left"></i>
+                    Voltar ao classificador
                 </a>
-                <a class="btn btn-sm btn-outline-success" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__CHATGPT.xlsx" download>
-                    Baixar ChatGPT
-                </a>
-                <a class="btn btn-sm btn-outline-danger" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026_GEMINI.xlsx" download>
-                    Baixar Gemini
-                </a>
-            </div>
-        </div>
 
-        <div class="comparison-container">
-            <div class="ia-column deepseek">
-                <div class="ia-header">
-                    <h4>DeepSeek <span class="badge bg-info text-dark">Top 20</span></h4>
+                <div class="hero-kicker">
+                    <span class="pulse-dot" aria-hidden="true"></span>
+                    <span>Comparação de rankings · Dados complementares</span>
                 </div>
-                <div class="ranking-list" id="deepseekList"></div>
+
+                <div class="hero-copy">
+                    <p class="eyebrow">DeepSeek · ChatGPT · Gemini</p>
+                    <h1 id="comparison-title">
+                        Rankings de Alzheimer por IA,
+                        <span>vistos lado a lado.</span>
+                    </h1>
+                    <p class="hero-lead">
+                        Esta página compara listas geradas por diferentes modelos para apoiar análise acadêmica sobre
+                        consistência, divergência e rastreabilidade de respostas em saúde cognitiva.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison-layout shell">
+            <div class="stats-grid" aria-label="Resumo dos rankings">
+                <div class="stat-card">
+                    <div class="stat-value" id="deepseekCount">-</div>
+                    <div class="stat-label">DeepSeek (países)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="chatgptCount">-</div>
+                    <div class="stat-label">ChatGPT (países)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="geminiCount">-</div>
+                    <div class="stat-label">Gemini (países)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="agreementRate">-</div>
+                    <div class="stat-label">Concordância Top 10</div>
+                </div>
             </div>
 
-            <div class="ia-column chatgpt">
-                <div class="ia-header">
-                    <h4>ChatGPT <span class="badge bg-success text-white">Top 20</span></h4>
+            <div class="panel filter-section">
+                <div class="filter-grid">
+                    <div>
+                        <p class="eyebrow accent">Filtro</p>
+                        <label for="searchInput" class="form-label mt-3">Buscar país</label>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Digite o nome do país...">
+                    </div>
+
+                    <div>
+                        <p class="eyebrow accent mb-3">Fontes em XLSX</p>
+                        <div class="download-actions">
+                            <a class="btn btn-sm btn-outline-dark" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__DEEPSEEK.xlsx" download>
+                                DeepSeek
+                            </a>
+                            <a class="btn btn-sm btn-outline-dark" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026__CHATGPT.xlsx" download>
+                                ChatGPT
+                            </a>
+                            <a class="btn btn-sm btn-outline-dark" href="Data/Ranking_Alzheimer_Dementia_100_Paises_2026_GEMINI.xlsx" download>
+                                Gemini
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="ranking-list" id="chatgptList"></div>
             </div>
 
-            <div class="ia-column gemini">
-                <div class="ia-header">
-                    <h4>Gemini <span class="badge bg-danger text-white">Top 20</span></h4>
+            <div class="comparison-container">
+                <div class="panel ia-column deepseek">
+                    <div class="ia-header">
+                        <h4>DeepSeek</h4>
+                        <span class="comparison-badge">Top 20</span>
+                    </div>
+                    <div class="ranking-list" id="deepseekList"></div>
                 </div>
-                <div class="ranking-list" id="geminiList"></div>
+
+                <div class="panel ia-column chatgpt">
+                    <div class="ia-header">
+                        <h4>ChatGPT</h4>
+                        <span class="comparison-badge">Top 20</span>
+                    </div>
+                    <div class="ranking-list" id="chatgptList"></div>
+                </div>
+
+                <div class="panel ia-column gemini">
+                    <div class="ia-header">
+                        <h4>Gemini</h4>
+                        <span class="comparison-badge">Top 20</span>
+                    </div>
+                    <div class="ranking-list" id="geminiList"></div>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <script>
         let allData = {};
         let searchTerm = '';
 
-        // Carregar dados
         async function loadData() {
             try {
                 const response = await fetch('Data/ias-comparison.json');
@@ -295,7 +156,7 @@
                 updateStats();
             } catch (error) {
                 console.error('Erro ao carregar dados:', error);
-                document.querySelector('.main').innerHTML += '<div class="alert alert-danger">Erro ao carregar dados de comparação.</div>';
+                document.querySelector('.comparison-layout').innerHTML += '<div class="alert alert-danger">Erro ao carregar dados de comparação.</div>';
             }
         }
 
@@ -304,7 +165,6 @@
             document.getElementById('chatgptCount').textContent = allData.CHATGPT?.length || 0;
             document.getElementById('geminiCount').textContent = allData.GEMINI?.length || 0;
 
-            // Calcular concordância nos top 10
             const top10DS = (allData.DEEPSEEK || []).slice(0, 10).map(d => d.País || d.Country || d.Name);
             const top10CG = (allData.CHATGPT || []).slice(0, 10).map(d => d.País || d.Country || d.Name);
             const top10GM = (allData.GEMINI || []).slice(0, 10).map(d => d.País || d.Country || d.Name);
@@ -347,13 +207,11 @@
             }).join('');
         }
 
-        // Event listener para busca
         document.getElementById('searchInput').addEventListener('input', (e) => {
             searchTerm = e.target.value;
             renderComparison();
         });
 
-        // Carregar dados ao iniciar
         loadData();
     </script>
 </body>

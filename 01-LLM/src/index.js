@@ -47,8 +47,8 @@ function updateTrainingPanelToggleButton(button) {
     button.textContent = showTrainingPanel
         ? 'Ocultar painel de treinamento'
         : 'Mostrar painel de treinamento';
-    button.classList.toggle('btn-outline-secondary', !showTrainingPanel);
-    button.classList.toggle('btn-secondary', showTrainingPanel);
+    button.classList.toggle('btn-outline-dark', !showTrainingPanel);
+    button.classList.toggle('btn-dark', showTrainingPanel);
 }
 
 function setTrainingPanelVisibility(visible) {
@@ -79,9 +79,9 @@ function getTrainingMessage(progressPercent) {
         return 'Estamos organizando os dados para o modelo aprender.';
     }
     if (progressPercent < 80) {
-        return 'O modelo esta treinando e melhorando a precisao das classificacoes.';
+        return 'O modelo está treinando e melhorando a precisão das classificações.';
     }
-    return 'Quase pronto! Estamos finalizando os ultimos ajustes do treinamento.';
+    return 'Quase pronto! Estamos finalizando os últimos ajustes do treinamento.';
 }
 
 function updateTrainingOverlay(progressPercent) {
@@ -143,7 +143,7 @@ async function trainModel(inputXs, outputYs) {
     const model = tf.sequential();
     model.add(tf.layers.dense({ inputShape: [inputXs.shape[1]], units: 150, activation: 'relu' }));
 
-    //Saída: 4 neuronios para cada classe
+    // Saída: 4 neurônios para cada classe
     model.add(tf.layers.dense({ units: 4, activation: 'softmax' }));
     model.compile({
         optimizer: tf.train.adam(),

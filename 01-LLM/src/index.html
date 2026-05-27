@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Classificação de Atenção em Saúde para Alzheimer</title>
+  <meta name="theme-color" content="#f8f5ee" />
+  <title>neurocare-ai-lab — Classificação de Atenção em Saúde</title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8240BCHML"></script>
   <script>
@@ -13,34 +14,136 @@
     gtag('js', new Date());
     gtag('config', 'G-G8240BCHML');
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div class="main">
-    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
-      <h3 class="mb-0">Classificação de Atenção em Saúde para Alzheimer</h3>
-      <div class="d-flex gap-2">
-        <button id="trainingPanelToggle" type="button" class="btn btn-sm btn-outline-secondary">
-          Mostrar painel de treinamento
-        </button>
-        <a href="comparison.html" class="btn btn-sm btn-outline-primary">
-          <i class="bi bi-bar-chart"></i> Análise de Rankings
-        </a>
-      </div>
-    </div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="neurocare-ai-lab — início">
+        <span class="brand-mark" aria-hidden="true"><i class="bi bi-braces-asterisk"></i></span>
+        <span class="brand-name">neurocare<span>-ai-lab</span></span>
+      </a>
 
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="mb-0">Formulário do Paciente</h4>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#classificador">Classificar</a>
+        <a href="#regras">Regras</a>
+        <a href="#console">Console</a>
+        <a href="comparison.html">Rankings</a>
+      </nav>
+
+      <a href="comparison.html" class="btn btn-outline-dark btn-sm header-action">
+        <i class="bi bi-bar-chart"></i>
+        <span>Rankings</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section bg-grid" aria-labelledby="hero-title">
+      <div class="shell hero-content">
+        <div class="hero-kicker">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>Laboratório educacional · Pós-graduação em IA</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">TensorFlow.js aplicado à saúde cognitiva</p>
+          <h1 id="hero-title">
+            Classificação de atenção em saúde,
+            <span>com limites clínicos explícitos.</span>
+          </h1>
+          <p class="hero-lead">
+            O <strong>neurocare-ai-lab</strong> treina um modelo simples no navegador para estimar prioridade de atenção
+            a partir de fatores informados no formulário. É um estudo acadêmico: não diagnostica, não prescreve e não
+            substitui avaliação profissional.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#classificador" class="btn btn-dark btn-lg">
+            Começar classificação
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <button id="trainingPanelToggle" type="button" class="btn btn-outline-dark btn-lg">
+            Mostrar painel de treinamento
+          </button>
+        </div>
+
+        <dl class="hero-metrics">
+          <div>
+            <dt>Status</dt>
+            <dd>MVP educacional</dd>
+            <p>não é produto médico</p>
           </div>
-          <div class="card-body form-panel-wrapper">
+          <div>
+            <dt>Domínio</dt>
+            <dd>Saúde cognitiva</dd>
+            <p>apoio à conversa clínica</p>
+          </div>
+          <div>
+            <dt>Modelo</dt>
+            <dd>TensorFlow.js</dd>
+            <p>treinado no navegador</p>
+          </div>
+          <div>
+            <dt>Posicionamento</dt>
+            <dd>Não diagnóstico</dd>
+            <p>human-in-the-loop</p>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="disclaimer-band" aria-labelledby="disclaimer-title">
+      <div class="shell disclaimer-layout">
+        <div class="section-intro compact">
+          <span class="icon-box" aria-hidden="true"><i class="bi bi-exclamation-triangle"></i></span>
+          <div>
+            <p class="eyebrow">Posicionamento clínico</p>
+            <h2 id="disclaimer-title">O que este projeto não é.</h2>
+          </div>
+        </div>
+
+        <ul class="disclaimer-list">
+          <li>Não diagnostica Alzheimer ou demência</li>
+          <li>Não calcula risco individual de doença</li>
+          <li>Não recomenda tratamento ou exames</li>
+          <li>Não substitui avaliação médica</li>
+          <li>Não deve ser usado fora do contexto educacional</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="classificador" class="app-section">
+      <div class="shell app-grid">
+        <div class="section-intro app-title">
+          <p class="eyebrow accent">01 — Classificador</p>
+          <h2>Formulário do paciente.</h2>
+          <p>
+            Informe sinais e fatores associados. O modelo retorna uma classe estimada e a distribuição de probabilidade
+            entre as quatro categorias estudadas.
+          </p>
+        </div>
+
+        <div class="panel form-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Entrada estruturada</p>
+              <h3>Dados para classificação</h3>
+            </div>
+            <span class="status-pill">Treino local</span>
+          </div>
+
+          <div class="form-panel-wrapper">
             <div id="trainingOverlay" class="training-overlay" aria-live="polite" aria-atomic="true">
               <div class="training-overlay-content">
+                <span class="icon-box mx-auto mb-3" aria-hidden="true"><i class="bi bi-cpu"></i></span>
                 <h5 class="mb-2">Preparando o sistema</h5>
                 <p id="trainingStatusMessage" class="mb-2">Estamos treinando o modelo para começar as classificações com segurança.</p>
                 <div class="training-progress-value">
@@ -48,19 +151,20 @@
                 </div>
               </div>
             </div>
+
             <form id="healthForm">
-              <div class="row">
-                <div class="col-md-6 mb-3">
+              <div class="row g-3">
+                <div class="col-md-6">
                   <label for="nome" class="form-label">Nome</label>
                   <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
                 </div>
 
-                <div class="col-md-3 mb-3">
+                <div class="col-md-3">
                   <label for="idade" class="form-label">Idade</label>
                   <input type="number" class="form-control" id="idade" min="0" max="120" required>
                 </div>
 
-                <div class="col-md-3 mb-3">
+                <div class="col-md-3">
                   <label for="genero" class="form-label">Gênero</label>
                   <select class="form-select" id="genero" required>
                     <option value="">Selecione</option>
@@ -69,7 +173,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="diabetes" class="form-label">Diabetes</label>
                   <select class="form-select" id="diabetes">
                     <option value="0">Não</option>
@@ -77,7 +181,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="depressao" class="form-label">Depressão</label>
                   <select class="form-select" id="depressao">
                     <option value="0">Não</option>
@@ -85,7 +189,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="hipertenso" class="form-label">Hipertenso</label>
                   <select class="form-select" id="hipertenso">
                     <option value="0">Não</option>
@@ -93,7 +197,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-6 mb-3">
+                <div class="col-md-6">
                   <label for="queixasMemoria" class="form-label">Queixas de memória</label>
                   <select class="form-select" id="queixasMemoria">
                     <option value="0">Não</option>
@@ -101,7 +205,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-6 mb-3">
+                <div class="col-md-6">
                   <label for="confusao" class="form-label">Confusão</label>
                   <select class="form-select" id="confusao">
                     <option value="0">Não</option>
@@ -109,7 +213,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="sono" class="form-label">Sono ruim</label>
                   <select class="form-select" id="sono">
                     <option value="0">Não</option>
@@ -117,7 +221,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="qualidadeDieta" class="form-label">Dieta ruim</label>
                   <select class="form-select" id="qualidadeDieta">
                     <option value="0">Não</option>
@@ -125,7 +229,7 @@
                   </select>
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4">
                   <label for="atividadeFisica" class="form-label">Sedentário</label>
                   <select class="form-select" id="atividadeFisica">
                     <option value="0">Não</option>
@@ -134,11 +238,12 @@
                 </div>
               </div>
 
-              <div class="d-flex gap-2">
-                <button type="submit" class="btn btn-primary">
-                  <i class="bi bi-clipboard2-pulse"></i> Classificar
+              <div class="form-actions">
+                <button type="submit" class="btn btn-dark">
+                  <i class="bi bi-clipboard2-pulse"></i>
+                  Classificar
                 </button>
-                <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+                <button type="reset" class="btn btn-outline-dark">Limpar</button>
               </div>
             </form>
 
@@ -147,67 +252,94 @@
               <p id="resultadoTexto" class="mb-2"></p>
               <ul id="fatoresLista" class="mb-2"></ul>
               <p class="small-note mb-0">
-                Este sistema não realiza diagnóstico. A resposta é apenas uma estimativa baseada nas informações fornecidas.
-                A avaliação de um profissional de saúde é indispensável.
+                Este sistema não realiza diagnóstico. A resposta é apenas uma estimativa baseada nas informações
+                fornecidas. A avaliação de um profissional de saúde é indispensável.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3">
-          <div class="card-header d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">Console</h4>
-            <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('consoleOutput').innerHTML=''" title="Limpar">
+        <aside id="regras" class="rules-column">
+          <div class="panel rules-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">02 — Regras</p>
+                <h3>Pesos aplicados no modelo</h3>
+              </div>
+            </div>
+
+            <p class="small-note">
+              Exemplo simples de pontuação para fins acadêmicos. Fatores clínicos reais exigem avaliação profissional.
+            </p>
+
+            <ul class="rule-list">
+              <li>Idade ≥ 60 aumenta pontuação</li>
+              <li>Diabetes, hipertensão e depressão aumentam atenção</li>
+              <li>Queixas de memória elevam a prioridade</li>
+              <li>Confusão aumenta fortemente a classificação</li>
+              <li>Sono ruim, dieta ruim e sedentarismo somam fatores</li>
+            </ul>
+
+            <div class="weights-table">
+              <div><span>Idade</span><strong>0.30</strong></div>
+              <div><span>Queixas de memória</span><strong>0.30</strong></div>
+              <div><span>Confusão</span><strong>0.30</strong></div>
+              <div><span>Atividade física</span><strong>0.20</strong></div>
+              <div><span>Qualidade da dieta</span><strong>0.20</strong></div>
+              <div><span>Sono</span><strong>0.20</strong></div>
+              <div><span>Depressão</span><strong>0.10</strong></div>
+              <div><span>Gênero</span><strong>0.10</strong></div>
+              <div><span>Diabetes</span><strong>0.10</strong></div>
+              <div><span>Hipertensão</span><strong>0.10</strong></div>
+            </div>
+          </div>
+
+          <div class="panel method-panel">
+            <p class="eyebrow accent">03 — Fluxo</p>
+            <ol class="process-list">
+              <li>
+                <span>01</span>
+                <div>
+                  <h4>Coleta estruturada</h4>
+                  <p>O formulário transforma relatos em entradas numéricas simples.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <h4>Treinamento no navegador</h4>
+                  <p>A base histórica é carregada e ponderada com pesos transparentes.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <h4>Resultado auditável</h4>
+                  <p>A saída mostra classe estimada e probabilidades por categoria.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </aside>
+
+        <div id="console" class="panel console-wrapper">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">04 — Telemetria local</p>
+              <h3>Console</h3>
+            </div>
+            <button class="btn btn-outline-dark btn-sm" onclick="document.getElementById('consoleOutput').innerHTML=''" title="Limpar console" aria-label="Limpar console">
               <i class="bi bi-trash"></i>
             </button>
           </div>
           <div id="consoleOutput" class="console-panel"></div>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="col-lg-4">
-        <div class="card mb-3">
-          <div class="card-header">
-            <h4 class="mb-0">Regras usadas</h4>
-          </div>
-          <div class="card-body">
-            <p class="small-note">
-              Exemplo simples de pontuação para fins acadêmicos.
-            </p>
-            <ul>
-              <li>Idade ≥ 60 aumenta pontuação</li>
-              <li>Diabetes, hipertensão e depressão aumentam risco</li>
-              <li>Queixas de memória aumentam atenção</li>
-              <li>Confusão aumenta fortemente a prioridade</li>
-              <li>Sono ruim, dieta ruim e sedentarismo somam fatores de risco</li>
-            </ul>
-            <hr class="my-2">
-            <p class="small-note mb-1"><strong>Pesos aplicados no Machine Learning:</strong></p>
-            <table class="table table-sm table-bordered mb-0" style="font-size:0.82rem;">
-              <thead class="table-light">
-                <tr><th>Feature</th><th>Peso</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>Idade</td><td>0.30</td></tr>
-                <tr><td>Queixas de Memória</td><td>0.30</td></tr>
-                <tr><td>Confusão</td><td>0.30</td></tr>
-                <tr><td>Atividade Física</td><td>0.20</td></tr>
-                <tr><td>Qualidade da Dieta</td><td>0.20</td></tr>
-                <tr><td>Sono</td><td>0.20</td></tr>
-                <tr><td>Depressão</td><td>0.10</td></tr>
-                <tr><td>Gênero</td><td>0.10</td></tr>
-                <tr><td>Diabetes</td><td>0.10</td></tr>
-                <tr><td>Hipertensão</td><td>0.10</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</body>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.5.1/dist/tfjs-vis.umd.min.js"></script>
   <script type="module" src="index.js"></script>
+</body>
 </html>
